@@ -179,6 +179,24 @@
         const passwordWarnning = document.querySelector("#password > p");
 
 
+        <!-- account输入框绑定回车键登录 -->
+        accountInput.addEventListener("keydown", function(e) {
+            if(e.key == "Enter") {
+                e.preventDefault();
+                button.click();
+            }
+        })
+        <!-- password输入框绑定回车键登录 -->
+        passwordInput.addEventListener("keydown", function(e) {
+            if(e.key == "Enter") {
+                e.preventDefault();
+                button.click();
+            }
+        })
+
+
+
+
         // 默认为登录模式
         let btnTarget = "login";
 
@@ -194,7 +212,7 @@
                     //post请求方法
                     // 封装请求信息
                     let data = {
-                        "id": accountValue,
+                        "userName": accountValue,
                         "passwd": passwordValue
                     };
                     // 发送请求
@@ -206,17 +224,22 @@
                         body: JSON.stringify(data)  // 把JS对象转成JSON字符串, 放进请求体
                     });
                     let usr = await res.json();
-                    alert(usr.message);
+                    if (usr.message == "登录成功") {
+                        alert(`登陆成功！  欢迎用户: ${usr.userInfo.userName}`)
+                    }
+                    else {
+                        alert(usr.message);
+                    }
                 }
             }
             // 注册模式
             else {
                 button.onclick = async function() {
                     let data = {
-                        "id": accountValue,
+                        "userName": accountValue,
                         "passwd": passwordValue
                     };
-                    let res = await fetch("/api/account/signUp", {
+                    let res = await fetch("/api/users/signUp", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json"

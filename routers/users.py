@@ -54,7 +54,7 @@ async def get_account(usr: UserRequest, db: AsyncSession = Depends(get_db_sessio
                     "avatar": usr_exists.avatar,
                     "bio": usr_exists.bio,
                     "gender": usr_exists.gender,
-                    "phone": usr_exists.phone
+                    "phone": usr_exists.phone if usr_exists.phone is not None else "无"
                 }
             }
         else:
