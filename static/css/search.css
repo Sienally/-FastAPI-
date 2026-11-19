@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 50px;
+    padding-left: 30px;
+}
+#head > a {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+#head > a:hover {
+    color: #FC5D03;
+}
+
+
+
+#main {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 250px;
+    height: 100%;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+#research {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+#left > #type-box {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    height: 150px;
+    border-bottom: #a8a5a3 1px solid;
+}
+#left > #type-box > div {
+    display: flex;
+    height: 25px;
+    width: 150px;
+}
+#left > #type-box > div > .line {
+    display: none;
+    position: absolute;
+    left: 2px;
+    height: 25px;
+    width: 5px;
+    border-radius: 20px;
+    background: #FC5D03;
+}
+#left > #type-box > #all-type > .line {
+    display: block;
+}
+#left > #type-box > div > label{
+    margin-left: 15px;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#left > #price-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    height: 180px;
+    border-bottom: #a8a5a3 1px solid;
+}
+#left > #price-box > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#left > #price-box > div > input {
+    width: 17px;
+    height: 17px;
+}
+#left > #price-box > div > label {
+    color: black;
+    font-size: 17px;
+}
+
+#left > #brand-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    height: 150px;
+    border-bottom: #a8a5a3 1px solid;
+}
+#left > #brand-box > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#left > #brand-box > div > input {
+    width: 17px;
+    height: 17px;
+}
+#left > #brand-box > div > label {
+    color: black;
+    font-size: 17px;
+}
+
+#left > #experience-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    height: 180px;
+    border-bottom: #a8a5a3 1px solid;
+}
+#left > #experience-box > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#left > #experience-box > div > input {
+    width: 17px;
+    height: 17px;
+}
+#left > #experience-box > div > label {
+    color: black;
+    font-size: 17px;
+}
+
+
+#right {
+    width: 100%;
+    height: 880px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#right > #search-result {
+    display: flex;
+    align-items: flex-end;
+    height: 40px;
+}
+#right > #search-result > #search-title {
+    font-size: 27px;
+}
+#right > #search-result > p {
+    font-size: 17px;
+}
+#right > #search-result > p > span{
+    color: #FC5D03;
+    font-size: 17px;
+}

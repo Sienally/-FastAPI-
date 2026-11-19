@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        #box {
+            display: flex;
+        }
+        #left {
+            width: 50%;
+            height: 500px;
+        }
+        #right {
+            width: 50%;
+            height: 500px;
+        }
+
+        #left {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #left > h1 {
+            font-size: 40px;
+            margin: 150px 0 30px 0;
+        }
+
+        #login-signUp {
+            display: flex;
+            gap: 40px;
+            font-size: 25px;
+        }
+        #login {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            cursor: pointer;
+        }
+        #login > h3 {
+            color: #899FF6;
+        }
+        #signUp {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            cursor: pointer;
+        }
+
+        .underline {
+            height: 2px;
+            width: 60px;
+            background: #899FF6;
+        }
+        #signUp > div {
+            display: none;
+        }
+
+        #line {
+            position: absolute;
+            width: 2px;
+            height: 350px;
+            left: 50%;
+            top: 50%;
+            margin-top: -175px;
+            background: #899FF6;
+        }
+
+
+        #right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 160px;
+            gap: 30px;
+            box-sizing: border-box;
+        }
+        #account {
+            height: 55px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+        #password {
+            height: 55px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+        input {
+            width: 300px;
+            height: 30px;
+            border: none;
+            font-size: 20px;
+            background: black;
+        }
+        input:focus-within {
+            border: none;
+            outline: none;
+        }
+        .input-underline {
+            background: #899FF6;
+            height: 2px;
+            width: 300px;
+        }
+        button {
+            width: 200px;
+            height: 40px;
+            background: #00AEEC;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 18px;
+        }
+        button:hover {
+            cursor: pointer;
+        }
+        #account > p, #password > p {
+            display: none;
+        }
+    </style>
+</head>
+<body style="background: black;">
+    <div id="box">
+        <div id="left">
+            <h1>欢迎登录</h1>
+            <div id="login-signUp">
+                <div id="login">
+                    <h3>登录</h3>
+                    <div class="underline" id="login-underline"></div>
+                </div>
+                <div id="signUp">
+                    <h3>注册</h3>
+                    <div class="underline" id="signUp-underline"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="line"></div>
+
+        <div id="right">
+            <div id="account">
+                <input type="text" placeholder="请输入账号">
+                <div class="input-underline"></div>
+                <p>账号不得低于2位</p>
+            </div>
+            <div id="password">
+                <input type="password" placeholder="请输入密码">
+                <div class="input-underline"></div>
+                <p>密码不得低于6位</p>
+            </div>
+            <button>登录</button>
+        </div>
+    </div>
+
+    <script>
+        const login = document.getElementById("login");
+        const signUp = document.getElementById("signUp");
+        const loginTitle = document.querySelector("#login > h3");
+        const signUpTitle = document.querySelector("#signUp > h3");
+        const loginUnderline = document.getElementById("login-underline");
+        const singnUpUnderline = document.getElementById("signUp-underline");
+        const button = document.getElementsByTagName("button")[0];
+
+        const accountInput = document.querySelector("#account > input");
+        const passwordInput = document.querySelector("#password > input");
+        const accountInputUnderLine = document.querySelector("#account > .input-underline");
+        const passwordInputUnderLine = document.querySelector("#password > .input-underline");
+        const accountWarnning = document.querySelector("#account > p");
+        const passwordWarnning = document.querySelector("#password > p");
+
+
+        // 默认为登录模式
+        let btnTarget = "login";
+
+        <!-- 登录/注册 输入框监听函数 -->
+        function checkOutInput() {
+            let accountValue = accountInput.value;
+            let passwordValue = passwordInput.value;
+
+            button.style.cursor="pointer";
+            // 登录模式
+            if (btnTarget == "login") {
+                button.onclick = async function() {
+                    //post请求方法
+                    // 封装请求信息
+                    let data = {
+                        "id": accountValue,
+                        "passwd": passwordValue
+                    };
+                    // 发送请求
+                    let res = await fetch("/api/users/login", {
+                        method: "POST",
+                        headers: {
+                           "Content-Type": "application/json"  // 告诉后端请求body是json格式
+                        },
+                        body: JSON.stringify(data)  // 把JS对象转成JSON字符串, 放进请求体
+                    });
+                    let usr = await res.json();
+                    alert(usr.message);
+                }
+            }
+            // 注册模式
+            else {
+                button.onclick = async function() {
+                    let data = {
+                        "id": accountValue,
+                        "passwd": passwordValue
+                    };
+                    let res = await fetch("/api/account/signUp", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify(data)
+                    });
+                    let usr = await res.json();
+                    alert(usr.message);
+                }
+            } 
+
+            <!-- 判断 -->
+            if(!accountValue || !passwordValue) {
+                button.style.cursor="not-allowed";
+                button.onclick=null;
+            }
+            if(accountValue) {
+                if(accountValue.length < 2) {
+                    accountInputUnderLine.style.background="red";
+                    accountWarnning.style.display="block";
+                    button.style.cursor="not-allowed";
+                    button.onclick=null;
+                }
+                else {
+                    accountInputUnderLine.style.background="#899FF6";
+                    accountWarnning.style.display="none";
+                }
+            }
+            if(passwordValue) {
+                if(passwordValue.length < 6) {
+                    passwordInputUnderLine.style.background="red";
+                    passwordWarnning.style.display="block";
+                    button.style.cursor="not-allowed";
+                    button.onclick=null;
+                }
+                else {
+                    passwordInputUnderLine.style.background="#899FF6";
+                    passwordWarnning.style.display="none";
+                }
+            }
+        }
+        <!-- 实时监听输入框, 只要两个输入框有一个没填, 就不允许点击 -->
+        accountInput.oninput = checkOutInput;
+        passwordInput.oninput = checkOutInput;
+        <!-- 初始化监听函数 -->
+        checkOutInput();
+
+
+        <!-- 登录按钮 -->
+        login.onclick = function() {
+            <!-- 更改样式 -->
+            loginTitle.style.color="#899FF6";
+            signUpTitle.style.color="white";
+            loginUnderline.style.display="block";
+            singnUpUnderline.style.display="none";
+
+            accountInputUnderLine.style.background="#899FF6";
+            passwordInputUnderLine.style.background="#899FF6";
+            accountWarnning.style.display="none";
+            passwordWarnning.style.display="none";
+
+            <!-- 内容改动 -->
+            accountInput.value = "";
+            passwordInput.value = "";
+            button.innerHTML = "登录";
+            btnTarget = "login";
+            checkOutInput();
+        }
+
+        <!-- 注册按钮 -->
+        signUp.onclick = function() {
+            <!-- 样式改动 -->
+            loginTitle.style.color="white";
+            signUpTitle.style.color="#899FF6";
+            loginUnderline.style.display="none";
+            singnUpUnderline.style.display="block";
+
+            accountInputUnderLine.style.background="#899FF6";
+            passwordInputUnderLine.style.background="#899FF6";
+            accountWarnning.style.display="none";
+            passwordWarnning.style.display="none";
+
+            <!-- 内容改动 -->
+            accountInput.value = "";
+            passwordInput.value = "";
+            button.innerHTML = "注册";
+            btnTarget = "signUp";
+            checkOutInput();
+        }
+
+        const currentId = "NULL";
+
+    </script>
+</body>
+</html>

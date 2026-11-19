@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索结果</title>
+    <link rel="icon" type="image/png" href="/static/img/ciallo.png">
+    <link rel="stylesheet" href="/static/css/search.css">
+</head>
+<body>
+    <div id="head">
+        <a href="/" id="label-home" style="cursor: default;">首页</a>
+        <p style="cursor: default; font-size: 20px;">></p>
+        <a href="#" id="label-search" style="cursor: default;">搜索结果</a>
+    </div>
+
+    <div id="main">
+        <div id="left">
+            <p style="cursor: pointer;" id="research">按筛选条件搜索</p>
+            <div id="type-box">
+                <h2 style="cursor: default;">分类</h2>
+                <div id="all-type">
+                    <div class="line"></div>
+                    <label>全部分类</label>
+                </div>
+                <div id="base-model">
+                    <div class="line"></div>
+                    <label>基础模型图</label>
+                </div>
+                <div id="deliverable">
+                    <div class="line"></div>
+                    <label>模型 + 渲染</label>
+                </div>
+            </div>
+
+            <div id="price-box">
+                <h2 style="cursor: default;">价格区间</h2>
+                <div>
+                    <input type="checkbox" id="0~99" value="0">
+                    <label for="0~99">0~99元</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="100~999" value="100">
+                    <label for="100~999">100~999元</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="1000~2000" value="1000">
+                    <label for="1000~2000">1000~2000元</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="2000+" value="2000">
+                    <label for="2000+">2000元以上</label>
+                </div>
+            </div>
+
+            <div id="brand-box">
+                <h2 style="cursor: default;">AI模型</h2>
+                <div>
+                    <input type="checkbox" id="ChatGPT" value="ChatGPT">
+                    <label for="ChatGPT">ChatGPT</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Gemini" value="Gemini">
+                    <label for="Gemini">Gemini</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Seedream" value="Seedream">
+                    <label for="Seedream">Seedream</label>
+                </div>
+            </div>
+
+            <div id="experience-box">
+                <h2 style="cursor: default;">设计师经验</h2>
+                <div>
+                    <input type="checkbox" id="beginner" value="beginner">
+                    <label for="beginner">初级设计师</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="3-" value="3-">
+                    <label for="3-">三年以内经验设计师</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="3-5" value="3-5">
+                    <label for="3-5">三至五年经验设计师</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="5+" value=5+>
+                    <label for="5+">五年以上经验设计师</label>
+                </div>
+            </div>
+        </div>
+
+        <div id="right">
+            <div id="search-result">
+                <h1 id="search-title">搜索</h1>
+                <p style="cursor: default;">
+                共找到<span>
+                    1,000
+                </span>
+                件结果</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/search.js"></script>
+</body>
+</html>
