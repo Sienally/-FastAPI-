@@ -14,6 +14,7 @@ from schemas.users import UserRequest
 
 # 导入加密, 密码校验
 from utils import security
+from utils import auth
 
 # 导入响应格式
 from utils.response import success_response
@@ -115,25 +116,14 @@ async def get_tokens(usr: UserRequest, db: AsyncSession = Depends(get_db_session
 
 
 # ============================== 用户详情信息接口 ====================================
-@router.post("/info")
-async def get_user_info(usr: UserRequest, db: AsyncSession = Depends(get_db_session)):
-    # token校验 ==> 查找用户
-    user = await select_user_by_token(db, usr.token)
-    if user:
-        return {
-            "UserInfo": {
-                "userName": user.user_name,
-                "avatar": user.avatar,
-                "bio": user.bio,
-                "gender": user.gender,
-                "phone": user.phone if user.phone is not None else "无"
-            }
+@router.get("/info")
+async def get_user_info(user=Depends(auth.get_current_user)):
+    return {
+        "UserInfo": {
+            "userName": user.user_name,
+            "avatar": user.avatar,
+            "bio": user.bio,
+            "gender": user.gender,
+            "phone": user.phone if user.phone is not None else "无"
         }
-    else:
-        return JSONResponse(
-            status_code=401,
-            content={
-                "detail": "token失效",
-                "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            }
-        )
+    }

