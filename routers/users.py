@@ -10,7 +10,7 @@ from config.db_config import get_db_session
 from crud.users import crud_select_users, crud_create_user, create_token, select_user_by_token, select_tokens
 
 # 导入参数规范类
-from schemas.users import UserRequest
+from schemas.users import UserRequest, UserUpdateRequest
 
 # 导入加密, 密码校验
 from utils import security
@@ -21,6 +21,9 @@ from utils.response import success_response
 
 # 导入data值构造函数
 from schemas.users import UserAuthResponse
+
+# 导入数据库模型类
+from models.users import Users
 
 
 
@@ -52,6 +55,7 @@ async def get_account(usr: UserRequest, db: AsyncSession = Depends(get_db_sessio
                 "userInfo": {
                     "id": usr_exists.id,
                     "userName": usr_exists.user_name,
+                    "token": usr_exists.token,
                     "avatar": usr_exists.avatar,
                     "bio": usr_exists.bio,
                     "gender": usr_exists.gender,
@@ -117,7 +121,7 @@ async def get_tokens(usr: UserRequest, db: AsyncSession = Depends(get_db_session
 
 # ============================== 用户详情信息接口 ====================================
 @router.get("/info")
-async def get_user_info(user=Depends(auth.get_current_user)):
+async def get_user_info(user: Users = Depends(auth.get_current_user)):
     return {
         "UserInfo": {
             "userName": user.user_name,
@@ -126,4 +130,20 @@ async def get_user_info(user=Depends(auth.get_current_user)):
             "gender": user.gender,
             "phone": user.phone if user.phone is not None else "无"
         }
+    }
+
+
+
+
+# =============================== 更改用户信息接口 ====================================
+@router.put("/update")
+async def update_user_info(
+    user_data: UserUpdateRequest,
+    user:Users = Depends(auth.get_current_user),
+    db: AsyncSession = Depends(get_db_session)
+):
+    # 先做token校验 ==> 再做用户查询, 信息更改 ==> 验证
+    pass
+    return {
+        "info": "修改成功"
     }

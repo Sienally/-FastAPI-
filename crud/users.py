@@ -31,7 +31,12 @@ async def crud_select_users(
     else:    
         stmt = select(Users).where(Users.user_name == user_name)
         result = await db.execute(stmt)
-        return result.scalar_one_or_none()
+        user = result.scalar_one_or_none()
+        # 更新token
+        if user:
+            token = await create_token(db, user.id)
+            user.token = token
+        return user
 
 
 

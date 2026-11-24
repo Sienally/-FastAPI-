@@ -16419,3 +16419,410 @@ INFO:     122.226.204.28:2852 - "GET /openapi.json HTTP/1.1" 200 OK
 INFO:     122.226.204.28:2853 - "POST /api/users/tokens HTTP/1.1" 200 OK
 INFO:     122.226.204.28:2854 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
 INFO:     122.226.204.28:2856 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     Will watch for changes in these directories: ['/home/public/Web/Project1']
+INFO:     Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)
+INFO:     Started reloader process [112771] using StatReload
+INFO:     Started server process [112777]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.226.204.28:2898 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.226.204.28:2897 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.226.204.28:2897 - "GET /openapi.json HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     213.218.160.24:35600 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:38320 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:38336 - "GET /files/../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:38342 - "GET /cgi-bin/../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:34194 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:34196 - "GET /assets/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:34210 - "GET /static/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:34220 - "GET /index.html/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:34234 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:34248 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:34264 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:34280 - "GET /..%3B/..%3B/..%3B/..%3B/..%3B/..%3B/etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:34288 - "GET /....//....//....//....//....//....//etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:34300 - "GET /files/../../../../../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:34304 - "GET /..%EF%BF%BD%EF%BF%BD..%EF%BF%BD%EF%BF%BD..%EF%BF%BD%EF%BF%BD..%EF%BF%BD%EF%BF%BD..%EF%BF%BD%EF%BF%BD..%EF%BF%BD%EF%BF%BDetc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:34316 - "GET /..%5C..%5C..%5C..%5C..%5C..%5Cetc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:34320 - "GET /..%252f..%252f..%252f..%252f..%252f..%252fetc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:34328 - "GET /..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:56966 - "GET /../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:56970 - "GET /../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:56980 - "GET /../../../../../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:56982 - "GET /files../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:56998 - "GET /static../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:57006 - "GET /assets../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:57012 - "GET /public../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:57028 - "GET /%40fs/etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:57034 - "GET /%40fs/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:57042 - "GET /%40fs/....//....//....//....//....//....//etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:57046 - "GET /%40fs/etc/passwd?import&raw HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:57052 - "GET /file%3D../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51568 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51584 - "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51594 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51598 - "GET /public/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51608 - "GET /media/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51620 - "GET /uploads/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51634 - "GET /download/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:51646 - "GET /files/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:49852 - "GET /%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD/etc/passwd HTTP/1.1" 404 Not Found
+INFO:     213.218.160.24:49858 - "GET /_next/static/../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+WARNING:  StatReload detected changes in 'routers/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [112777]
+INFO:     Started server process [112814]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'routers/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [112814]
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/public/Web/Project1/main.py", line 9, in <module>
+    from routers import news, subpages, users, products
+  File "/home/public/Web/Project1/routers/users.py", line 120, in <module>
+    async def get_user_info(user: User = Depends(auth.get_current_user)):
+                                  ^^^^
+NameError: name 'User' is not defined
+WARNING:  StatReload detected changes in 'routers/users.py'. Reloading...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/public/Web/Project1/main.py", line 9, in <module>
+    from routers import news, subpages, users, products
+  File "/home/public/Web/Project1/routers/users.py", line 26, in <module>
+    from models.users import User
+ImportError: cannot import name 'User' from 'models.users' (/home/public/Web/Project1/models/users.py)
+WARNING:  StatReload detected changes in 'routers/users.py'. Reloading...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/public/Web/Project1/main.py", line 9, in <module>
+    from routers import news, subpages, users, products
+  File "/home/public/Web/Project1/routers/users.py", line 26, in <module>
+    from models.users import User
+ImportError: cannot import name 'User' from 'models.users' (/home/public/Web/Project1/models/users.py)
+INFO:     Stopping reloader process [112771]
+INFO:     Will watch for changes in these directories: ['/home/public/Web/Project1']
+INFO:     Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)
+INFO:     Started reloader process [112959] using StatReload
+INFO:     Started server process [112961]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.226.204.28:2904 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.226.204.28:2904 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     122.226.204.28:2905 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     122.226.204.28:2906 - "POST /api/users/tokens HTTP/1.1" 200 OK
+INFO:     122.226.204.28:2907 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     122.226.204.28:2908 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     122.226.204.28:2910 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     122.226.204.28:2911 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     140.179.148.12:44220 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     122.226.204.28:2913 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     122.226.204.28:2915 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+WARNING:  Invalid HTTP request received.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     106.14.243.194:57746 - "GET / HTTP/1.1" 200 OK
+INFO:     122.226.204.28:2917 - "GET /api/users/info HTTP/1.1" 401 Unauthorized
+INFO:     122.226.204.28:2920 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.226.204.28:2920 - "GET /openapi.json HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'crud/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [112961]
+INFO:     Started server process [113129]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.226.204.28:2921 - "POST /api/users/login HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/applications.py", line 1216, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/lib/python3.11/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 2809, in app
+    await route.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1837, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 2892, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1863, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1326, in handle
+    await effective_context.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 152, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 745, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 372, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/public/Web/Project1/routers/users.py", line 42, in get_account
+    usr_exists = await crud_select_users(db, usr.user_name, usr.passwd, usr.key)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/public/Web/Project1/crud/users.py", line 36, in crud_select_users
+    await create_token(db, result.id)
+                           ^^^^^^^^^
+AttributeError: 'ChunkedIteratorResult' object has no attribute 'id'
+WARNING:  StatReload detected changes in 'crud/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [113129]
+INFO:     Started server process [113155]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.226.204.28:2922 - "POST /api/users/login HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/applications.py", line 1216, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/lib/python3.11/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 2809, in app
+    await route.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1837, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 2892, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1863, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1326, in handle
+    await effective_context.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 152, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 745, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 372, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/public/Web/Project1/routers/users.py", line 42, in get_account
+    usr_exists = await crud_select_users(db, usr.user_name, usr.passwd, usr.key)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/public/Web/Project1/crud/users.py", line 37, in crud_select_users
+    await create_token(db, result.id)
+                           ^^^^^^^^^
+AttributeError: 'ChunkedIteratorResult' object has no attribute 'id'
+INFO:     122.226.204.28:2923 - "POST /api/users/login HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/applications.py", line 1216, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/lib/python3.11/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 2809, in app
+    await route.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1837, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 2892, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1863, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1326, in handle
+    await effective_context.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 152, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 745, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 372, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/public/Web/Project1/routers/users.py", line 42, in get_account
+    usr_exists = await crud_select_users(db, usr.user_name, usr.passwd, usr.key)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/public/Web/Project1/crud/users.py", line 37, in crud_select_users
+    await create_token(db, result.id)
+                           ^^^^^^^^^
+AttributeError: 'ChunkedIteratorResult' object has no attribute 'id'
+WARNING:  StatReload detected changes in 'crud/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [113155]
+INFO:     Started server process [113167]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.226.204.28:2924 - "POST /api/users/login HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'crud/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [113167]
+INFO:     Started server process [113182]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'routers/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [113182]
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/public/Web/Project1/main.py", line 9, in <module>
+    from routers import news, subpages, users, products
+  File "/home/public/Web/Project1/routers/users.py", line 58
+    "token": usr_exists.token
+             ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+WARNING:  StatReload detected changes in 'routers/users.py'. Reloading...
+INFO:     Started server process [113204]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.226.204.28:2925 - "POST /api/users/login HTTP/1.1" 200 OK
+INFO:     122.226.204.28:2926 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.226.204.28:2926 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     122.226.204.28:2927 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     122.226.204.28:2928 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     122.226.204.28:2929 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     122.226.204.28:2929 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     122.226.204.28:2930 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     122.226.204.28:2931 - "GET /api/users/info HTTP/1.1" 422 Unprocessable Entity
+INFO:     122.226.204.28:2933 - "GET /api/users/info HTTP/1.1" 200 OK
