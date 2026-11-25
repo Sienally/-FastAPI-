@@ -5,7 +5,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from config.db_config import get_db_session
 
 # 导入查询业务
-from crud import users
+from crud import crud_users
 
 
 
@@ -15,7 +15,7 @@ async def get_current_user(
     db: AsyncSession = Depends(get_db_session)
 ):
     token = authorization.split(" ")[1]
-    user = await users.select_user_by_token(db, token)
+    user = await crud_users.select_user_by_token(db, token)
     if not user:
         raise HTTPException(status_code=401, detail="无效或过期的令牌")
     

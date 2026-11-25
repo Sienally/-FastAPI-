@@ -5,7 +5,7 @@ import asyncio
 
 
 # 导入模型, 会话
-from crud.news import get_categories
+from crud.crud_news import get_categories
 from config.db_config import get_db_session, init_db
 
 

@@ -1,6 +1,7 @@
 import traceback
 from fastapi import HTTPException, Request
 from fastapi.responses import JSONResponse
+from fastapi.exceptions import RequestValidationError
 from sqlalchemy.exc import IntegrityError, SQLAlchemyError
 from starlette import status
 
@@ -8,6 +9,32 @@ from starlette import status
 # 开发模式: 返回详细错误信息
 # 生产模式: 返回简化错误信息
 DEBUG_MODE = True  # 教学项目保持开启
+
+
+
+async def validation_exception_handler(request: Request, exc: HTTPException):
+    """
+    处理 请求体参数异常
+    """
+    error_data = None
+    if DEBUG_MODE:
+        error_data = {
+            "error_type": "IntegrityError",
+            "error_detail": str(exc),
+            "path": str(request.url)
+        }
+            
+    return JSONResponse(
+        status_code = status.HTTP_422_UNPROCESSABLE_ENTITY,
+        content = {
+            "code": "422",
+            "message": "参数校验失败",
+            "data": error_data
+        }
+    )
+    
+
+
 
 
 async def http_exception_handler(request: Request, exc: HTTPException):
@@ -23,6 +50,8 @@ async def http_exception_handler(request: Request, exc: HTTPException):
             "data": None
         }
     )
+
+
 
 
 async def Integrity_error_handler(request: Request, exc: IntegrityError):
@@ -121,7 +150,8 @@ def register_exception_handlers(app):
     注册全局异常处理
     """
     # 注册异常函数, 第一个参数是抛错类型, 第二个参数是具体要抛出的异常函数
-    app.add_exception_handler(HTTPException, http_exception_handler)      # 业务
-    app.add_exception_handler(IntegrityError, Integrity_error_handler)    # 数据完整性约束
-    app.add_exception_handler(SQLAlchemyError, sqlalchemy_error_handler)  # 数据库
-    app.add_exception_handler(Exception, general_exception_handler)       # 兜底
+    app.add_exception_handler(RequestValidationError, validation_exception_handler)     # 请求体参数
+    app.add_exception_handler(HTTPException, http_exception_handler)                    # 业务
+    app.add_exception_handler(IntegrityError, Integrity_error_handler)                  # 数据完整性约束
+    app.add_exception_handler(SQLAlchemyError, sqlalchemy_error_handler)                # 数据库
+    app.add_exception_handler(Exception, general_exception_handler)                     # 兜底

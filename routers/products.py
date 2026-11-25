@@ -5,7 +5,7 @@ import asyncio
 
 
 # 导入模型, 会话
-from crud import product
+from crud import crud_product
 from config.db_config import get_db_session, init_db
 
 
@@ -18,7 +18,7 @@ router = APIRouter(prefix="/api/products", tags=["products"])
 # =============================== 查询产品分类 ====================================
 @router.get("/categories")
 async def get_categories(db: AsyncSession = Depends(get_db_session)):
-    data = await product.product_get_categories(db)
+    data = await crud_product.product_get_categories(db)
 
     return {
         "code": 200,
@@ -40,8 +40,8 @@ async def get_product_list(
 
     # 思路: 处理分页规则 => 查询产品列表 => 计算重量 => 计算是否还有更多
     offset = (page - 1) * pageSize
-    data = await product.product_get_products(db, categoryId, offset, pageSize)
-    total = await product.product_get_count(db, categoryId)
+    data = await crud_product.product_get_products(db, categoryId, offset, pageSize)
+    total = await crud_product.product_get_count(db, categoryId)
     # (跳过的 + 当前列表里面的数量) < 总量
     hasMore = (offset + len(data)) < total
     return {
@@ -63,16 +63,16 @@ async def get_product_detail(
     productId: int = 1,
     db: AsyncSession = Depends(get_db_session)
 ):
-    product_detail = await product.product_get_detail(db, productId)
+    product_detail = await crud_product.product_get_detail(db, productId)
     # 如果该产品不存在
     if not product_detail:
         raise HTTPException(status_code=404, detail="产品不存在")
 
     # 如果存在, 则浏览量+1
-    await product.increase_products_views(db, productId)
+    await crud_product.increase_products_views(db, productId)
 
     # 推荐其它产品
-    related_products = await product.get_related_products(db, product_detail.id, product_detail.category_id)
+    related_products = await crud_product.get_related_products(db, product_detail.id, product_detail.category_id)
 
     return {
         "code": 200,

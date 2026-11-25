@@ -52,6 +52,19 @@ class UserAuthResponse(BaseModel):
         populate_by_name = True,  # alias | 字段名 兼容
         from_attributes = True    # 允许从 ORM 对象属性中取值
     )
+    
+    
+
+
+
+
+
+
+
+
+# 查询所有token参数模型类
+class selectTokensRequest(BaseModel):
+    key: str
 
 
 

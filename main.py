@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel
 
 # 导入路由
 from routers import news, subpages, users, products

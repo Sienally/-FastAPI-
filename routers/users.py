@@ -7,10 +7,7 @@ from datetime import datetime
 from config.db_config import get_db_session
 
 # 导入crud的user表的增删改查逻辑
-from crud.users import crud_select_users, crud_create_user, select_tokens, update_user_info
-
-# 导入schemas参数规范类
-from schemas.users import UserRequest, UserUpdateRequest
+from crud.crud_users import crud_select_users, crud_create_user, select_tokens, update_user_info
 
 # 导入utils加密, 密码校验
 from utils import security
@@ -21,9 +18,11 @@ from utils.response import success_response
 
 # 导入schemas的data值构造函数
 from schemas.users import UserAuthResponse
+# 导入schemas参数规范类
+from schemas.users import UserRequest, UserUpdateRequest, selectTokensRequest
 
 # 导入models数据库模型类
-from models.users import Users
+from models.model_users import Users
 
 
 
@@ -100,11 +99,11 @@ async def create_user(usr: UserRequest, db: AsyncSession = Depends(get_db_sessio
 
 # ============================== 看所有token接口 ====================================
 @router.post("/tokens")
-async def get_tokens(usr: UserRequest, db: AsyncSession = Depends(get_db_session)):
-    if usr.key == "248311":
+async def get_tokens(obj: selectTokensRequest, db: AsyncSession = Depends(get_db_session)):
+    if obj.key == "248311":
         tokens = await select_tokens(db)
         return {
-            "tokens": {"tokens": [{"name": user.user_name, "token": token.token} for user,token in tokens]}
+            "info": {"status": "success", "tokens": [{"name": user.user_name, "token": token.token} for user, token in tokens]}
         }
     else:
         return JSONResponse(

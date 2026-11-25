@@ -1,6 +1,6 @@
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
-from models.news import Category
+from models.model_news import Category
 
 
 # 因为要对具体的数据库操作, 那就需要传入该数据库的会话session, 第一个形参就是, 规范类型是AsyncSession

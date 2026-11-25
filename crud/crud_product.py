@@ -1,7 +1,7 @@
 from sqlalchemy import select, func, update
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from models.product import Category, Products
+from models.model_product import Category, Products
 
 
 

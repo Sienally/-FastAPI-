@@ -1,6 +1,8 @@
 from sqlalchemy import select, insert, update
 from sqlalchemy.ext.asyncio import AsyncSession
-from models.users import Users, UserToken
+
+# 导入模型
+from models.model_users import Users, UserToken
 
 # 导入密码加密函数
 from utils import security
