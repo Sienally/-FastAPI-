@@ -1,5 +1,6 @@
 # Python 缓存
 __pycache__/
+*.pyc
 *.py[cod]
 *&py.class
 .pytest_cache/

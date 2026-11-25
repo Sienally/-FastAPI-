@@ -62,6 +62,7 @@ class UserAuthResponse(BaseModel):
 
 
 
+
 # 查询所有token参数模型类
 class selectTokensRequest(BaseModel):
     key: str
@@ -70,12 +71,19 @@ class selectTokensRequest(BaseModel):
 
 
 
-
-
 # 更改用户参数模型类
-class UserUpdateRequest(BaseModel):
+class UserUpdateInfoRequest(BaseModel):
     user_name: str = Field(..., min_length=2, max_length=20, alias="userName")
     avatar: str = None
     gender: users.GenderEnum = users.GenderEnum.unknown
     bio: str | None = Field("这个人很懒, 什么也没留下", min_length=1, max_length=255)
     phone: str | None = None
+    
+    
+    
+    
+# 更改用户密码参数模型类
+class UserUpdatePasswordRequest(BaseModel):
+    user_name: str = Field(..., min_length=2, max_length=20, alias="userName")
+    password: str = Field(..., min_length=6, max_length=20, alias="passwd")
+    new_passwd: str = Field(..., min_length=6, max_length=20, alias="newPasswd")

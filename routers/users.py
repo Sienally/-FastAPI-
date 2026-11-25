@@ -7,11 +7,11 @@ from datetime import datetime
 from config.db_config import get_db_session
 
 # 导入crud的user表的增删改查逻辑
-from crud.crud_users import crud_select_users, crud_create_user, select_tokens, update_user_info
+from crud.crud_users import crud_select_users, crud_create_user, select_tokens, update_user_info, reset_user_passwd
 
 # 导入utils加密, 密码校验
 from utils import security
-from utils import auth
+from utils import auth_token
 
 # 导入utils响应格式
 from utils.response import success_response
@@ -19,7 +19,7 @@ from utils.response import success_response
 # 导入schemas的data值构造函数
 from schemas.users import UserAuthResponse
 # 导入schemas参数规范类
-from schemas.users import UserRequest, UserUpdateRequest, selectTokensRequest
+from schemas.users import UserRequest, selectTokensRequest, UserUpdateInfoRequest, UserUpdatePasswordRequest
 
 # 导入models数据库模型类
 from models.model_users import Users
@@ -120,7 +120,7 @@ async def get_tokens(obj: selectTokensRequest, db: AsyncSession = Depends(get_db
 
 # ============================== 用户详情信息接口 ====================================
 @router.get("/info")
-async def get_user_info(user: Users = Depends(auth.get_current_user)):
+async def get_user_info(user: Users = Depends(auth_token.get_current_user)):
     return {
         "UserInfo": {
             "userName": user.user_name,
@@ -137,8 +137,8 @@ async def get_user_info(user: Users = Depends(auth.get_current_user)):
 # =============================== 更改用户信息接口 ====================================
 @router.put("/update")
 async def updateUserInfo(
-    user_data: UserUpdateRequest,
-    user:Users = Depends(auth.get_current_user),
+    user_data: UserUpdateInfoRequest,
+    user:Users = Depends(auth_token.get_current_user),
     db: AsyncSession = Depends(get_db_session)
 ):
     # 先做token校验, 用户查询(依赖注入) ==> 信息更改 ==> 验证
@@ -147,8 +147,48 @@ async def updateUserInfo(
         return {
             "info": {
                 "userName": user.user_name,
-                "info": "修改成功"
+                "info": "用户基本信息修改成功"
             }
         }
     else:
         raise HTTPException(status_code=303, detail="更新失败")
+
+
+
+
+
+
+# ============================== 更改用户密码接口 ======================================
+@router.put("/resetPassword")
+async def reset_password(
+    user_obj: UserUpdatePasswordRequest,
+    user: Users = Depends(auth_token.get_current_user),
+    db: AsyncSession = Depends(get_db_session)
+):
+    # 先判断新旧密码是否一致 ==> 再做token校验, 查询用户(依赖注入) ==> 旧密码校验 ==> 密码更改 ==> 校验
+    if user_obj.password == user_obj.new_passwd:
+        raise HTTPException(status_code=500, detail="新密码不能与旧密码一致")
+    
+    # token校验
+    status = security.auth_passwd(input_passwd=user_obj.password, passwd=user.password)
+    if not status:
+        raise HTTPException(status_code=401, detail="密码错误")
+    
+    # 更新密码操作
+    reset_passwd_user = await reset_user_passwd(db, user.user_name, user_obj.new_passwd)
+    
+    
+    if security.auth_passwd(input_passwd=user_obj.new_passwd, passwd=reset_passwd_user.password):
+        return {
+            "code": 200,
+            "status": "success",
+            "info": {
+                "oldPasswd": user_obj.password,
+                "newPasswd": user_obj.new_passwd
+            }
+        }
+    else:
+        raise HTTPException(
+            status_code = 500,
+            detail="密码更新失败"
+        )

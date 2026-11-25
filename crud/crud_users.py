@@ -13,9 +13,6 @@ from datetime import datetime, timedelta
 # 导入uuid 进行生成随机token
 import uuid
 
-# 导入用户更新请求参数模型
-from schemas.users import UserUpdateRequest
-
 
 
 
@@ -128,7 +125,7 @@ async def select_user_by_token(db: AsyncSession, token: str):
 
 
 # 更改用户信息
-async def update_user_info(db: AsyncSession, user_name: str, user_data: UserUpdateRequest):
+async def update_user_info(db: AsyncSession, user_name: str, user_data):
     stmt = select(Users).where(Users.user_name == user_name)
     result = await db.execute(stmt)
     user = result.scalar_one_or_none()
@@ -149,3 +146,23 @@ async def update_user_info(db: AsyncSession, user_name: str, user_data: UserUpda
         return user
     else:
         return None
+    
+    
+    
+    
+    
+    
+# 更改用户密码
+async def reset_user_passwd(db: AsyncSession, user_name: str, new_passwd: str):
+    hash_passwd = security.get_hash_passwd(new_passwd)  # 加密密码
+    
+    stmt = update(Users).where(Users.user_name == user_name).values(password = hash_passwd)
+    result = await db.execute(stmt)
+    if result.rowcount == 0:
+        return None
+    
+    await db.commit()
+    
+    stmt = select(Users).where(Users.user_name == user_name)
+    result = await db.execute(stmt)
+    return result.scalar_one_or_none()
