@@ -28,9 +28,9 @@ async def crud_select_users(
     key: str | None = None
 ):
     if key == "248311":
-        stmt = select(Users)
+        stmt = select(Users, UserToken).join(UserToken, Users.id == UserToken.user_id)
         result = await db.execute(stmt)
-        return result.scalars().all()
+        return result.all()
     else:    
         stmt = select(Users).where(Users.user_name == user_name)
         result = await db.execute(stmt)
@@ -139,7 +139,7 @@ async def update_user_info(db: AsyncSession, user_name: str, user_data: UserUpda
         stmt = update(Users).where(Users.user_name == user_name).values(**user_data.model_dump(
             # 如果键值对为空就不写入
             exclude_unset = True,
-            exculde_none = True
+            exclude_none = True
         ))
         result = await db.execute(stmt)
         if result.rowcount == 0:

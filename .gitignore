@@ -1,0 +1,38 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*&py.class
+.pytest_cache/
+.mypy_cache/
+
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+
+# 日志, 运行输出
+*.log
+nohup.out
+
+
+# 打包产物
+dist/
+build/
+*.egg-info/
+
+
+# 敏感配置
+.env
+.env .local
+
+
+# IDE配置
+.vscode/
+.idea/
+
+
+# 系统垃圾
+.DS_Store
+Thumbs.db

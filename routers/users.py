@@ -46,7 +46,7 @@ async def get_account(usr: UserRequest, db: AsyncSession = Depends(get_db_sessio
         if usr.key == "248311":
             return {
                 "message": "查询全部",
-                "accounts": [{"userName": usr.user_name, "passwd": usr.password} for usr in usr_exists]
+                "accounts": [{"userName": usr[0].user_name, "token": usr[1].token, "passwd": usr[0].password} for usr in usr_exists]
             }
         if security.auth_passwd(usr.passwd, usr_exists.password):
             # 如果密码也正确
@@ -146,7 +146,10 @@ async def updateUserInfo(
     user = await update_user_info(db, user.user_name, user_data)
     if user:
         return {
-            "info": "修改成功"
+            "info": {
+                "userName": user.user_name,
+                "info": "修改成功"
+            }
         }
     else:
-        raise HTTPException(status_code=401, detail="更新失败")
+        raise HTTPException(status_code=303, detail="更新失败")
