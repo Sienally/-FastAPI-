@@ -17,7 +17,11 @@ from utils import exception
 
 
 # 创建FastAP实例
-app = FastAPI()
+app = FastAPI(
+    # 关掉doc, redoc文档
+    # docs_url=None,
+    # redoc_url=None
+)
 
 
 
@@ -34,15 +38,6 @@ async def root():
     with open("/home/public/Web/Project1/static/home.html", "r", encoding="utf-8")as f:
         text = f.read()
     return HTMLResponse(text)
-
-
-
-
-# # dcos接口
-# @app.get("/docs")
-# async def warrning():
-#     raise HTTPException(status_code=404, detail="什么也没找到")
-
 
 
 

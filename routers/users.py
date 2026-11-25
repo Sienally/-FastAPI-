@@ -3,26 +3,26 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from fastapi.responses import JSONResponse
 from datetime import datetime
 
-# 导入会话
+# 导入config的session会话
 from config.db_config import get_db_session
 
-# 导入user表的增删改查逻辑
-from crud.users import crud_select_users, crud_create_user, create_token, select_user_by_token, select_tokens
+# 导入crud的user表的增删改查逻辑
+from crud.users import crud_select_users, crud_create_user, select_tokens, update_user_info
 
-# 导入参数规范类
+# 导入schemas参数规范类
 from schemas.users import UserRequest, UserUpdateRequest
 
-# 导入加密, 密码校验
+# 导入utils加密, 密码校验
 from utils import security
 from utils import auth
 
-# 导入响应格式
+# 导入utils响应格式
 from utils.response import success_response
 
-# 导入data值构造函数
+# 导入schemas的data值构造函数
 from schemas.users import UserAuthResponse
 
-# 导入数据库模型类
+# 导入models数据库模型类
 from models.users import Users
 
 
@@ -89,7 +89,7 @@ async def create_user(usr: UserRequest, db: AsyncSession = Depends(get_db_sessio
             }
         }
     else:
-        raise HTTPException(status_code=401, detail="账号已存在")
+        raise HTTPException(status_code=201, detail="账号已存在")
 
 
 
@@ -137,13 +137,16 @@ async def get_user_info(user: Users = Depends(auth.get_current_user)):
 
 # =============================== 更改用户信息接口 ====================================
 @router.put("/update")
-async def update_user_info(
+async def updateUserInfo(
     user_data: UserUpdateRequest,
     user:Users = Depends(auth.get_current_user),
     db: AsyncSession = Depends(get_db_session)
 ):
-    # 先做token校验 ==> 再做用户查询, 信息更改 ==> 验证
-    pass
-    return {
-        "info": "修改成功"
-    }
+    # 先做token校验, 用户查询(依赖注入) ==> 信息更改 ==> 验证
+    user = await update_user_info(db, user.user_name, user_data)
+    if user:
+        return {
+            "info": "修改成功"
+        }
+    else:
+        raise HTTPException(status_code=401, detail="更新失败")

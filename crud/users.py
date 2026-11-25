@@ -1,4 +1,4 @@
-from sqlalchemy import select, insert
+from sqlalchemy import select, insert, update
 from sqlalchemy.ext.asyncio import AsyncSession
 from models.users import Users, UserToken
 
@@ -10,6 +10,9 @@ from datetime import datetime, timedelta
 
 # 导入uuid 进行生成随机token
 import uuid
+
+# 导入用户更新请求参数模型
+from schemas.users import UserUpdateRequest
 
 
 
@@ -89,12 +92,11 @@ async def create_token(db: AsyncSession, user_id: int):
 
 
 
+# 查询所有token
 async def select_tokens(db: AsyncSession):
     stmt = select(Users, UserToken).join(Users, UserToken.user_id == Users.id)
     result = await db.execute(stmt)
     return result.all()
-
-
 
 
 
@@ -116,5 +118,32 @@ async def select_user_by_token(db: AsyncSession, token: str):
         stmt = select(Users).where(Users.id == user_token.user_id)
         user = await db.execute(stmt)
         return user.scalar_one_or_none()
+    else:
+        return None
+    
+    
+    
+
+
+# 更改用户信息
+async def update_user_info(db: AsyncSession, user_name: str, user_data: UserUpdateRequest):
+    stmt = select(Users).where(Users.user_name == user_name)
+    result = await db.execute(stmt)
+    user = result.scalar_one_or_none()
+    if user:
+        # 做信息更改
+        # update(Users).values(user_name=xxx, bio=xxx, phone=xxx, avatar=xxx)
+        
+        # user_data 是一个Pydantic类型, 得到字典 ==> 解包
+
+        stmt = update(Users).where(Users.user_name == user_name).values(**user_data.model_dump(
+            # 如果键值对为空就不写入
+            exclude_unset = True,
+            exculde_none = True
+        ))
+        result = await db.execute(stmt)
+        if result.rowcount == 0:
+            return None
+        return user
     else:
         return None
