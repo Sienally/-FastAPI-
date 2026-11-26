@@ -26,11 +26,23 @@ async def get_file_Kettle():
 @router.get("/download/sqlite3")
 async def get_file_sqlite3():
     return FileResponse(
-            path = "./database/sqlite3/sqlite-tools-win-x64-3500400.zip",  
-            filename = "sqlite3-tools-for-Windows.zip",      
-            media_type = "application/pdf",    
-            content_disposition_type = "attachment"
-        )
+        path = "./database/sqlite3/sqlite-tools-win-x64-3500400.zip",  
+        filename = "sqlite3-tools-x64-for-Windows.zip",      
+        media_type = "application/pdf",    
+        content_disposition_type = "attachment"
+    )
+    
+    
+    
+# node.js
+@router.get("/download/node.js")
+async def get_file_nodeJs():
+    return FileResponse(
+        path = "./database/node-js/node-v24.19.0-x64.msi",  
+        filename = "Node.js-x64-for-Windows.msi",      
+        media_type = "application/pdf",    
+        content_disposition_type = "attachment"
+    )
     
     
     
