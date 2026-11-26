@@ -165,11 +165,11 @@ async def reset_password(
     user: Users = Depends(auth_token.get_current_user),
     db: AsyncSession = Depends(get_db_session)
 ):
-    # 先判断新旧密码是否一致 ==> 再做token校验, 查询用户(依赖注入) ==> 旧密码校验 ==> 密码更改 ==> 校验
+    # 先token校验, 查询用户(依赖注入) ==> 再判断输入新旧密码是否一致 ==> 与数据库旧密码校验 ==> 密码更改 ==> 校验
     if user_obj.password == user_obj.new_passwd:
         raise HTTPException(status_code=500, detail="新密码不能与旧密码一致")
     
-    # token校验
+    # 密码校验
     status = security.auth_passwd(input_passwd=user_obj.password, passwd=user.password)
     if not status:
         raise HTTPException(status_code=401, detail="密码错误")
@@ -178,6 +178,7 @@ async def reset_password(
     reset_passwd_user = await reset_user_passwd(db, user.user_name, user_obj.new_passwd)
     
     
+    # 获取更新后的用户密码, 判断是否成功更改
     if security.auth_passwd(input_passwd=user_obj.new_passwd, passwd=reset_passwd_user.password):
         return {
             "code": 200,

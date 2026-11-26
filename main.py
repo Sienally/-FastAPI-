@@ -5,7 +5,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
 # 导入路由
-from routers import news, subpages, users, products
+import routers
 
 # 导入数据库配置初始化
 from config.db_config import init_db
@@ -45,16 +45,19 @@ async def root():
 app.mount("/static", StaticFiles(directory="/home/public/Web/Project1/static"), name="static")
 
 # 挂载其他页面路由
-app.include_router(subpages.router)
+app.include_router(routers.subpages_router)
 
 # 挂载用户路由
-app.include_router(users.router)
+app.include_router(routers.users_router)
 
 # 挂载新闻路由
-app.include_router(news.router)
+app.include_router(routers.news_router)
 
 # 挂载产品路由
-app.include_router(products.router)
+app.include_router(routers.products_router)
+
+# 挂载文件路由
+app.include_router(routers.files_router)
 
 
 

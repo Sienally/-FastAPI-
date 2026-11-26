@@ -137,8 +137,8 @@ async def update_user_info(db: AsyncSession, user_name: str, user_data):
 
         stmt = update(Users).where(Users.user_name == user_name).values(**user_data.model_dump(
             # 如果键值对为空就不写入
-            exclude_unset = True,
-            exclude_none = True
+            exclude_unset = True,   # 剔除值为None的字段
+            exclude_none = True     # 剔除没手动赋值, 只用默认值的字段
         ))
         result = await db.execute(stmt)
         if result.rowcount == 0:

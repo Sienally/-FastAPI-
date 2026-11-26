@@ -18254,3 +18254,544 @@ INFO:     Waiting for application shutdown.
 INFO:     Application shutdown complete.
 INFO:     Finished server process [116488]
 INFO:     Stopping reloader process [112959]
+INFO:     Will watch for changes in these directories: ['/home/public/Web/Project1']
+INFO:     Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)
+INFO:     Started reloader process [121228] using StatReload
+INFO:     Started server process [121230]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121230]
+INFO:     Stopping reloader process [121228]
+INFO:     Will watch for changes in these directories: ['/home/public/Web/Project1']
+INFO:     Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)
+INFO:     Started reloader process [121234] using StatReload
+INFO:     Started server process [121236]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.227.53.222:3878 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3880 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3878 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3878 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3878 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3878 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3881 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3882 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3883 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3884 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3878 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3878 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3885 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3886 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3879 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3879 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3888 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3879 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3889 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3890 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3879 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3879 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3891 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3879 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3879 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3879 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3892 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3893 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3894 - "GET / HTTP/1.1" 200 OK
+INFO:     122.227.53.222:3895 - "GET / HTTP/1.1" 200 OK
+INFO:     35.210.65.254:11326 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     35.210.40.228:23904 - "OPTIONS / HTTP/1.1" 405 Method Not Allowed
+INFO:     35.210.40.228:23910 - "XEYU / HTTP/1.1" 405 Method Not Allowed
+INFO:     35.210.40.228:23912 - "GET / HTTP/1.1" 200 OK
+INFO:     35.210.40.228:23926 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     35.210.40.228:23928 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     35.210.40.228:23938 - "OPTIONS / HTTP/1.1" 405 Method Not Allowed
+INFO:     35.210.40.228:46094 - "GET /pub/ HTTP/1.1" 404 Not Found
+INFO:     35.210.40.228:46104 - "GET /files/ HTTP/1.1" 404 Not Found
+INFO:     35.210.40.228:46116 - "GET /downloads/ HTTP/1.1" 404 Not Found
+INFO:     43.166.237.57:43492 - "GET / HTTP/1.1" 200 OK
+INFO:     43.135.183.82:47356 - "GET /subpages/settingPage HTTP/1.1" 404 Not Found
+INFO:     40.124.81.207:44004 - "GET /developmentserver/metadatauploader HTTP/1.1" 404 Not Found
+INFO:     147.185.132.90:53740 - "GET / HTTP/1.0" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     20.163.13.19:55504 - "GET /portal/redlion HTTP/1.1" 404 Not Found
+INFO:     172.236.239.55:25168 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     85.155.14.61:45346 - "GET / HTTP/1.1" 200 OK
+INFO:     85.155.14.61:45346 - "GET /.git/HEAD HTTP/1.1" 404 Not Found
+INFO:     85.155.14.61:45346 - "GET /wp-login.php HTTP/1.1" 404 Not Found
+INFO:     85.155.14.61:45346 - "GET /actuator/env HTTP/1.1" 404 Not Found
+INFO:     89.248.172.11:32014 - "GET / HTTP/1.0" 200 OK
+INFO:     172.104.11.51:17520 - "GET / HTTP/1.1" 200 OK
+INFO:     23.132.164.201:39394 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     48.216.241.188:36866 - "GET / HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'routers/files.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121236]
+INFO:     Started server process [121704]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'routers/files.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121704]
+INFO:     Started server process [121712]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.226.204.58:3722 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3722 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3721 - "GET /api/file/download HTTP/1.1" 404 Not Found
+INFO:     122.226.204.58:3721 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     122.226.204.58:3723 - "GET /api/files/download HTTP/1.1" 404 Not Found
+WARNING:  StatReload detected changes in 'routers/__init__.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121712]
+INFO:     Started server process [121713]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121713]
+INFO:     Started server process [121723]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.226.204.58:3728 - "GET /api/files/download HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3730 - "GET /api/files/download HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3729 - "GET /api/files/download HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3733 - "GET /api/files/download HTTP/1.1" 206 Partial Content
+WARNING:  StatReload detected changes in 'routers/files.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121723]
+INFO:     Started server process [121728]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.226.204.58:3734 - "GET /api/files/download HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3735 - "GET /api/files/download HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3736 - "GET /api/files/download HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3734 - "GET /api/files/download HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'routers/files.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121728]
+INFO:     Started server process [121730]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     43.161.224.78:44168 - "GET / HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'routers/files.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121730]
+INFO:     Started server process [121732]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     43.153.47.201:54640 - "GET /subpages/settingPage HTTP/1.1" 404 Not Found
+WARNING:  StatReload detected changes in 'routers/files.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121732]
+INFO:     Started server process [121739]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.226.204.58:3737 - "GET /api/files/download HTTP/1.1" 404 Not Found
+INFO:     122.226.204.58:3738 - "GET /api/files/download HTTP/1.1" 404 Not Found
+INFO:     122.226.204.58:3739 - "GET /api/files/download/Kettle HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/applications.py", line 1216, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/lib/python3.11/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 2809, in app
+    await route.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1837, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 2892, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1863, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1326, in handle
+    await effective_context.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 153, in app
+    await response(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/responses.py", line 360, in __call__
+    raise RuntimeError(f"File at path {self.path} is not a file.")
+RuntimeError: File at path ./database/Kettle/ is not a file.
+WARNING:  StatReload detected changes in 'routers/files.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121739]
+INFO:     Started server process [121741]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'routers/files.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121741]
+INFO:     Started server process [121742]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'routers/files.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121742]
+INFO:     Started server process [121743]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.226.204.58:3741 - "GET /api/files/download/Kettle HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/applications.py", line 1216, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/lib/python3.11/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 2809, in app
+    await route.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1837, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 2892, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1863, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1326, in handle
+    await effective_context.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 153, in app
+    await response(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/responses.py", line 360, in __call__
+    raise RuntimeError(f"File at path {self.path} is not a file.")
+RuntimeError: File at path ./database/Kettle/ is not a file.
+INFO:     122.226.204.58:3742 - "GET /api/files/download/Kettle HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/applications.py", line 1216, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/lib/python3.11/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 2809, in app
+    await route.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1837, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 2892, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1863, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1326, in handle
+    await effective_context.app(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 153, in app
+    await response(scope, receive, send)
+  File "/usr/lib/python3.11/site-packages/starlette/responses.py", line 360, in __call__
+    raise RuntimeError(f"File at path {self.path} is not a file.")
+RuntimeError: File at path ./database/Kettle/ is not a file.
+WARNING:  StatReload detected changes in 'routers/files.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121743]
+INFO:     Started server process [121768]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.226.204.58:3746 - "GET /api/files/download/Kettle HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3747 - "GET /api/files/download/Kettle HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3748 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3749 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3750 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3751 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3752 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3753 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3754 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3755 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3756 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3757 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3758 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3759 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3760 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3761 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3758 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3762 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3763 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3764 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3765 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3766 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3767 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3768 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3769 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3770 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3771 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3772 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3773 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3774 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3775 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3776 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3777 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3778 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3779 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3780 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3781 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3782 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3783 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3784 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3785 - "GET /api/files/download/Kettle HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3786 - "GET /api/files/download/Kettle HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3788 - "GET / HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3788 - "GET /static/css/home.css HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3787 - "GET /static/img/ciallo.png HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3789 - "GET /static/img/%E6%90%9C%E7%B4%A2.png HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3788 - "GET /static/img/%E7%94%A8%E6%88%B7.png HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3789 - "GET /static/subpages/loginPage.html HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3790 - "GET /static/js/home.js HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3791 - "GET /static/img/shopping%20car.png HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3792 - "GET /static/img/%E9%93%83%E9%93%9B-1.png HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3788 - "GET /static/img/%E9%BD%BF%E8%BD%AE.png HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3789 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE1.png HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3790 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE2.png HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3791 - "GET /static/img/%E8%BD%AE%E6%92%AD%E5%9B%BE3.png HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3792 - "GET /static/img/%E6%A8%A1%E5%9E%8B%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3788 - "GET /static/img/%E6%88%90%E5%93%81%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3787 - "GET /static/img/%E6%B8%B2%E6%9F%93%E5%9B%BE.png HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3793 - "GET /api/subpages/search?kw=123 HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3793 - "GET /static/css/search.css HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3794 - "GET /static/js/search.js HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3795 - "POST /api/users/login HTTP/1.1" 401 Unauthorized
+INFO:     122.226.204.58:3796 - "POST /api/users/signUp HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3797 - "POST /api/users/login HTTP/1.1" 200 OK
+INFO:     149.56.31.99:39200 - "CONNECT chekfast.zennolab.com%3A443 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  StatReload detected changes in 'routers/files.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121768]
+INFO:     Started server process [121796]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     36.21.140.211:38626 - "GET /docs HTTP/1.1" 200 OK
+INFO:     36.21.140.211:38626 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     36.21.140.211:38588 - "GET /api/files/download/Kellte HTTP/1.1" 404 Not Found
+INFO:     36.21.140.211:38588 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     36.21.140.211:38700 - "GET /api/files/download/Kettle HTTP/1.1" 200 OK
+INFO:     36.21.140.211:38701 - "HEAD /api/files/download/Kettle HTTP/1.1" 405 Method Not Allowed
+INFO:     120.133.84.82:42959 - "GET / HTTP/1.1" 200 OK
+INFO:     172.239.64.84:62086 - "GET / HTTP/1.1" 200 OK
+INFO:     36.21.140.211:38608 - "GET /api/files/download/Kettle HTTP/1.1" 200 OK
+INFO:     36.21.140.211:38611 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     36.21.140.211:38611 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     36.21.140.211:38611 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     36.21.140.211:38611 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     36.21.140.211:38613 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     36.21.140.211:38611 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     111.113.88.64:43874 - "HEAD http%3A//110.242.68.4/ HTTP/1.1" 404 Not Found
+INFO:     59.52.37.38:22480 - "CONNECT cn.bing.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     59.52.37.38:56247 - "GET http%3A//dongtaiwang.com/ HTTP/1.1" 404 Not Found
+INFO:     59.52.37.38:36268 - "CONNECT www.voanews.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     59.52.37.38:21773 - "GET http%3A//www.wujieliulan.com/ HTTP/1.1" 404 Not Found
+INFO:     59.52.37.38:19589 - "GET http%3A//www.epochtimes.com/ HTTP/1.1" 404 Not Found
+INFO:     59.52.37.38:63762 - "CONNECT www.baidu.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     59.52.37.38:59311 - "GET http%3A//www.soso.com/ HTTP/1.1" 404 Not Found
+INFO:     59.52.37.38:54899 - "CONNECT www.so.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     59.52.37.38:42922 - "GET http%3A//www.rfa.org/english/ HTTP/1.1" 404 Not Found
+INFO:     59.52.37.38:46480 - "GET http%3A//www.minghui.org/ HTTP/1.1" 404 Not Found
+INFO:     40.77.167.101:30198 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     40.77.167.17:12757 - "GET / HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3799 - "GET / HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3801 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3800 - "GET /api/files/download/Kettle HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3804 - "GET /api/files/download/Kettle HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3805 - "GET /api/files/download/Kettle HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'routers/files.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121796]
+INFO:     Started server process [121843]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.226.204.58:3806 - "GET / HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3807 - "GET /api/files/download/sqlite3 HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'routers/files.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121843]
+INFO:     Started server process [121847]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.226.204.58:3810 - "GET /api/files/download/sqlite3 HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3811 - "GET /api/files/download/Kettle HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3812 - "GET /api/files/download/sqlite3 HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3814 - "GET /api/files/download/sqlite3 HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3813 - "GET /api/files/download/sqlite3 HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3814 - "GET /api/files/download/sqlite3 HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3816 - "GET /api/files/download/sqlite3 HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3817 - "GET /api/files/download/sqlite3 HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3820 - "GET /api/files/download/sqlite3 HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3822 - "GET /api/files/download/sqlite3 HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3821 - "GET /api/files/download/sqlite3 HTTP/1.1" 206 Partial Content
+INFO:     122.226.204.58:3825 - "GET /api/files/download/sqlite3 HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3823 - "GET /api/files/download/sqlite3 HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3824 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3824 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     122.226.204.58:3826 - "GET /api/files/download/sqlite3 HTTP/1.1" 200 OK
+INFO:     216.25.90.23:63104 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     45.135.193.193:58160 - "CONNECT httpbin.org%3A443 HTTP/1.1" 404 Not Found
+WARNING:  StatReload detected changes in 'routers/files.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121847]
+Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib64/python3.11/multiprocessing/spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/public/Web/Project1/main.py", line 8, in <module>
+    import routers
+  File "/home/public/Web/Project1/routers/__init__.py", line 5, in <module>
+    from .files import router as files_router
+  File "/home/public/Web/Project1/routers/files.py", line 47, in <module>
+    @router.post("/uploads")
+     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 3107, in decorator
+    self.add_api_route(
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 3042, in add_api_route
+    route = route_class(
+            ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1244, in __init__
+    _populate_api_route_state(
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 1112, in _populate_api_route_state
+    ) = _build_dependant_with_parameterless_dependencies(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/routing.py", line 912, in _build_dependant_with_parameterless_dependencies
+    dependant = get_dependant(path=path, call=call, scope="function")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/dependencies/utils.py", line 296, in get_dependant
+    param_details = analyze_param(
+                    ^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/fastapi/dependencies/utils.py", line 523, in analyze_param
+    ensure_multipart_is_installed()
+  File "/usr/lib/python3.11/site-packages/fastapi/dependencies/utils.py", line 129, in ensure_multipart_is_installed
+    raise RuntimeError(multipart_not_installed_error) from None
+RuntimeError: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+INFO:     Stopping reloader process [121234]

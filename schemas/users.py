@@ -84,6 +84,5 @@ class UserUpdateInfoRequest(BaseModel):
     
 # 更改用户密码参数模型类
 class UserUpdatePasswordRequest(BaseModel):
-    user_name: str = Field(..., min_length=2, max_length=20, alias="userName")
     password: str = Field(..., min_length=6, max_length=20, alias="passwd")
     new_passwd: str = Field(..., min_length=6, max_length=20, alias="newPasswd")

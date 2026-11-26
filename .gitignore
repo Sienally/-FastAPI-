@@ -37,3 +37,8 @@ build/
 # 系统垃圾
 .DS_Store
 Thumbs.db
+
+
+
+# 大文件上传
+database/

@@ -1,12 +1,11 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
-import asyncio
 
 
 
 # 导入模型, 会话
 from crud.crud_news import get_categories
-from config.db_config import get_db_session, init_db
+from config.db_config import get_db_session
 
 
 
@@ -26,9 +25,6 @@ router = APIRouter(prefix="/api/news", tags=["news"])
 
 @router.get("/catergories")
 async def get_catergories(db: AsyncSession = Depends(get_db_session), skip: int = 0, limit: int = 100):
-    
-    # 初始化建表函数
-    # await init_db()
     
     # 先填充数据库里面的新闻分类数据 ==> 先创建数据库引擎与会话 ==> 再定义模型类 ==> 封装查询数据的方法
     categories = await get_categories(db, skip, limit)

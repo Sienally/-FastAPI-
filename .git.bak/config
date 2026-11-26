@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "FastAPI网站"]
+	url = git@github.com:Sienally/-FastAPI-.git
+	fetch = +refs/heads/*:refs/remotes/FastAPI网站/*
